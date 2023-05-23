@@ -4,7 +4,7 @@ import random
 import time
 
 # consts
-flag = "HUOCTF{LeS_cL4vIeRs_c'3sT_pQs_f4c1l3_S8R_Z1Nd3UBE!}"
+flag = "UHOCTF{LeS_cL4vIeRs_c'3sT_pQs_f4c1l3_S8R_Z1Nd3UBE!}"
 REPS = random.randint(111, 6200)
 
 def azerty_to_qwerty(texte):
