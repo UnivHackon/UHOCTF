@@ -37,8 +37,6 @@ Dans cette première version les opérateurs sont limités a 4 :
 
 Tout autres caractères renverra une erreur.
 
-**Flag** : `uhctf{C4lcul3s_3t_3xpr3ss10ns_M4gn1f1qu3s!}`
-
 ## Exemple d'utilisation :
 
 ```
@@ -54,93 +52,64 @@ Vous avez 1 minute pour résoudre un maximum de calculs !
 18 ? 9 = 2
 > /
 ```
+## Solution :
 
-## Code source :
+Le joueur doit donc résoudre 100 calculs en moins d'une minute. Pour cela il doit trouver l'opérateur qui a été appliqué sur les deux nombres pour obtenir le résultat.
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
+Pour cela il suffit de faire un script qui va se connecter au serveur et résoudre les calculs.
 
-#define MAX 100
+Nous allons utiliser le package python `pwntools` pour nous connecter au serveur et envoyer les réponses.
 
-#define MAX_OPERATIONS 100
+```python
+from pwn import *
 
-#define OPERATORS "+-*/"
+# run the process locally
+# p = process('./calculateur_express')
 
-__attribute__((constructor)) void flush_buf() {
-    setbuf(stdin, NULL);
-    setbuf(stdout, NULL);
-    setbuf(stderr, NULL);
-}
+# connect to remote server
+p = remote('ip', port)
 
-char *read_line() {
-    char *line = malloc(MAX);
-    fgets(line, MAX, stdin);
-    return line;
-}
+op = ['+','-','*','/']
+i = 0
 
-void print_flag() {
-    FILE* flag_file;
-    char c;
+while True:
+    w = p.recvline().decode().strip()
 
-    flag_file = fopen("flag.txt", "r");
+    if 'flag' in w:
+        print(w)
+        break
+    if '?' not in w:
+        continue
 
-    if (flag_file != NULL) {
-        while ((c = getc(flag_file)) != EOF) {
-            printf("%c", c);
-        }
-        printf("\n");
-    }
-    else {
-        printf("Could not find flag.txt\n");
-    }
-}
+    i += 1
+    w = w.split('=')
+    res = w[1]
+    w = w[0]
 
-int is_operator(char c) {
-    return strchr(OPERATORS, c) != NULL;
-}
+    p.recvuntil(b'>')
 
-int is_digit(char c) {
-    return c >= '0' && c <= '9';
-}
+    for x in op:
+        if (round(float(eval(w.replace('?', x))), 2) == float(res)):
+            print(f"{i} | {w.replace('?', x)} = {float(res)}")
+            p.sendline(x.encode())
+            continue
+```
 
-int main() {
-  size_t i;
-  char *line;
-  char *operations[MAX_OPERATIONS];
-  char *token;
-  char *saveptr;
-  int nb_operations = 0;
-  int result = 0;
+On attend de recevoir une ligne du serveur, puis on vérifie si le mot `flag` est présent dans la ligne reçue. Si c'est le cas on affiche la ligne et on sort de la boucle.
 
-  // Print welcome message
-  printf("Bienvenue sur le calculeur express !\n");
-  printf("Vous avez 1 minute pour résoudre un maximum de calculs !\n");
+Si le la ligne contient un `?` alors nous allons devoir résoudre le calcul. Pour cela on récupère le résultat et le calcul, puis on envoie le résultat au serveur.
 
-  for (i = 0; i < MAX_OPERATIONS; i++) {
-    printf("> ");
-    line = read_line();
+On peut alors lancer le script et récupérer le flag.
 
-    // Check if user wants to quit
-    if (strcmp(line, "quit\n") == 0) {
-      printf("Au revoir !\n");
-      exit(0);
-    }
+```bash
+hoka@hoka ~/c/U/U/P/Calculateur-Express (main)> python3 solve.py
+[+] Starting local process './calculateur_express': pid 6870
+97 | 64 / 59  = 1.08
+98 | 86 * 41  = 3526.0
+99 | 19 - 38  = -19.0
+100 | 23 / 86  = 0.27
+UHOCTF{fake_flag}
+[*] Stopped Process './calculateur_express' (pid 6870)
+```
 
-    // Split line into tokens
-    token = strtok_r(line, " ", &saveptr);
-    while (token != NULL) {
-      operations[nb_operations++] = token;
-      token = strtok_r(NULL, " ", &saveptr);
-    }
-
-    // Check if user wants to submit
-    if (strcmp(operations[0], "=") == 0) {
-      break;
-    }
-  }
-}
+**Flag** : `UHOCTF{C4lcul3s_3t_3xpr3ss10ns_M4gn1f1qu3s!}`

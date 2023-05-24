@@ -108,8 +108,8 @@ int main() {
 
     float result = exec_operation(a, b, operator);
 
-    printf("%d ? %d = %f\n", a, b, result);
-    printf("> ");
+    printf("%d ? %d = %.2f\n", a, b, result);
+    printf("%d > ", i + 1);
     line = read_line();
 
     // Start timer
@@ -122,8 +122,6 @@ int main() {
       printf("Au revoir !\n");
       exit(0);
     }
-
-    printf("check is operator %d\n", is_operator(line[0]));
 
     // Check if the line is an operator
     if (is_operator(line[0]) == 0) {
