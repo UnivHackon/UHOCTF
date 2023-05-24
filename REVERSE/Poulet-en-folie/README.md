@@ -10,7 +10,7 @@
 
 ## Description :
 
-Suite au cours de compilation, un étudiant c'est intéressé aux langages de programmation les plus farfelus.
+Suite au cours de compilation, un étudiant c'est intéressé aux langages de programmation les plus farfelus. Aide le à comprendre ce que fait ce code.
 
 [poulet_en_folie](./poulet_en_folie)
 
