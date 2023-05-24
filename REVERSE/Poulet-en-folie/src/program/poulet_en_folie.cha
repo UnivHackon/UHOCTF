@@ -1,0 +1,342 @@
+# Chicken CTF challenge
+# I used math operations to make the ASCII values and
+# concatenated the characters at different times to make
+# it so they wouldn't be obvious from just counting the
+# number of occurences of "chicken" in a line.
+
+# Flag : UHOCTF{L3_p0ul3t_s'3nv0l3_v3rs_l4_v1ct01r3}
+
+# U (85) = 5 * 17
+push 5
+push 17
+multiply
+char
+
+# H (72) = 8 * 9
+push 8
+push 9
+multiply
+char
+
+# O (79) = 7 * 11
+push 7
+push 11
+multiply
+push 2
+add
+char
+
+add
+add
+add
+
+# C (67) = 3 * 20 + 7
+push 3
+push 20
+multiply
+push 7
+add
+char
+
+# T (84) = 7 * 3 * 4
+push 4
+push 20
+multiply
+push 4
+add
+char
+
+# F (70) = 7 * 10
+push 10
+push 7
+multiply
+char
+
+# { (123) = 3 * 41
+push 3
+push 41
+multiply
+char
+
+add
+add
+add
+add
+
+# L (76) = 3 * 20 + 16
+push 3
+push 20
+multiply
+push 16
+add
+char
+
+# 3 (51) = 3 * 17
+push 3
+push 17
+multiply
+char
+
+add
+add
+
+# _ (95) = 5 * 19
+push 5
+push 19
+multiply
+char
+
+# p (112) = 2 * 56
+push 56
+push 2
+multiply
+char
+
+# 0 (48) = 4 * 12
+push 4
+push 12
+multiply
+char
+
+add
+add
+add
+
+# u (117) = 50 + 67
+push 50
+push 67
+add
+char
+
+# l (108) = 6 * 18
+push 6
+push 18
+multiply
+char
+
+# 3 (51) = 3 * 17
+push 3
+push 17
+multiply
+char
+
+# t (116) = 50 + 66
+push 50
+push 66
+add
+char
+
+# _ (95) = 5 * 19
+push 5
+push 19
+multiply
+char
+
+add
+add
+add
+add
+add
+
+# s (115) = 5 * 23
+push 5
+push 23
+multiply
+char
+
+# ' (39) = 3 * 13
+push 3
+push 13
+multiply
+char
+
+# 3 (51) = 3 * 17
+push 3
+push 17
+multiply
+char
+
+add
+add
+add
+
+# n (110) = 2 * 5 * 11
+push 2
+push 5
+multiply
+push 11
+multiply
+char
+
+# v (118) = 2 * 59
+push 2
+push 59
+multiply
+char
+
+# 0 (48) = 4 * 12
+push 4
+push 12
+multiply
+char
+
+# l (108) = 6 * 18
+push 6
+push 18
+multiply
+char
+
+add
+add
+add
+add
+
+# 3 (51) = 3 * 17
+push 3
+push 17
+multiply
+char
+
+# _ (95) = 5 * 19
+push 5
+push 19
+multiply
+char
+
+# v (118) = 2 * 59
+push 2
+push 59
+multiply
+char
+
+add
+add
+add
+
+# 3 (51) = 3 * 17
+push 3
+push 17
+multiply
+char
+
+# r (114) = 10 * 11 + 4
+push 10
+push 11
+multiply
+push 4
+add
+char
+
+add
+add
+
+# s (115) = 5 * 23
+push 5
+push 23
+multiply
+char
+
+# _ (95) = 5 * 19
+push 5
+push 19
+multiply
+char
+
+# l (108) = 6 * 18
+push 6
+push 18
+multiply
+char
+
+# 4 (52) = 4 * 13
+push 4
+push 13
+multiply
+char
+
+add
+add
+add
+add
+
+# _ (95) = 5 * 19
+push 5
+push 19
+multiply
+char
+
+# v (118) = 2 * 59
+push 2
+push 59
+multiply
+char
+
+# 1 (49) = 7 * 7
+push 7
+push 7
+multiply
+char
+
+add
+add
+add
+
+# c (99) = 3 * 3 * 11
+push 3
+push 3
+multiply
+push 11
+multiply
+char
+
+# t (116) = 50 + 66
+push 50
+push 66
+add
+char
+
+# 0 (48) = 4 * 12
+push 4
+push 12
+multiply
+char
+
+# 1 (49) = 7 * 7
+push 7
+push 7
+multiply
+char
+
+add
+add
+add
+add
+
+# r (114) = 10 * 11 + 4
+push 10
+push 11
+multiply
+push 4
+add
+char
+
+# 3 (51) = 3 * 17
+push 3
+push 17
+multiply
+char
+
+# } (125) = 5 * 5 * 5
+push 5
+push 5
+multiply
+push 5
+multiply
+char
+
+add
+add
+add
+
+exit
+
