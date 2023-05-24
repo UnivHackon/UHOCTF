@@ -6,20 +6,20 @@
 Retrouver ici tous nos challenges avec leurs writeups.
 Les challenges sont écrient en français.
 
-### Cryptographie
+### CRYPTO
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md)
 
-# PWN
+### PWN
 
-# JAIL
+### JAIL
 
-# PROG
+### PROG
 
 * [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md)
 * [Evaluation surprise !](PROG/evaluation-surpise-!/README.md)
 
-# REVERSE
+### REVERSE
 
 - [Poulet en folie](REVERSE/Poulet-en-folie/README.md)
 - [VBScape](REVERSE/VBScape/README.md)

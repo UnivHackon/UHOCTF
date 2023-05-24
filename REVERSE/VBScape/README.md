@@ -10,7 +10,7 @@
 
 ## Description :
 
-Un étudiant a trouvé un fichier VBS sur un ordinateur de l'école. Il pense qu'il s'agit d'un virus, mais il n'arrive pas à le déchiffrer. Pouvez-vous l'aider ?
+Un étudiant a trouvé un fichier VBS sur un ordinateur de l'université. Il pense qu'il s'agit d'un virus, mais il n'arrive pas à le déchiffrer. Pouvez-vous l'aider ?
 
 > **⚠️** : Le fichier joint contient un vrai malware, ne l'exécutez pas sur votre machine ! Mot de passe de l'archive : `ce-ctf-est-trop-cool`
 
