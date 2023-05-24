@@ -2,6 +2,8 @@
 
 Level - Facile
 
+Auteur - Senkei
+
 Description:
 ```
 Le pauvre étudiant n'arrive plus à utiliser son clavier. Il a besoin de votre aide pour corriger ses erreurs.

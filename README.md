@@ -6,6 +6,11 @@
 Retrouver ici tous nos challenges avec leurs writeups.
 Les challenges sont écrient en français.
 
+## MISC
+
+- [Mouààà-Bouréééé-???](MISC/Mouààà-Bouréééé-???/README.md)
+
+
 ### CRYPTO
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md)
@@ -15,6 +20,9 @@ Les challenges sont écrient en français.
 - [Calculateur express!](PWN/Calculateur-Express/README.md)
 
 ### JAIL
+
+* [YEET 1](JAIL/Yeet-1/README.md)
+* [YEET 2](JAIL/Yeet-2/README.md)
 
 ### PROG
 
