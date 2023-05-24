@@ -16,9 +16,13 @@ Les challenges sont écrient en français.
 
 # PROG
 
+* [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md)
+* [Evaluation surprise !](PROG/evaluation-surpise-!/README.md)
+
 # REVERSE
 
 - [Poulet en folie](REVERSE/Poulet-en-folie/README.md)
+
 
 
 
