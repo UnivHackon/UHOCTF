@@ -14,7 +14,7 @@ Un étudiant a trouvé un fichier VBS sur un ordinateur de l'école. Il pense qu
 
 > **⚠️** : Le fichier joint contient un vrai malware, ne l'exécutez pas sur votre machine ! Mot de passe de l'archive : `ce-ctf-est-trop-cool`
 
-Le flag correspond à l'email utilisé pour l'exfiltration et au nom du dernier fichier exfiltré, par exemple `UHOCTF{attattacker@evil.com|passwords.txt}
+Le flag correspond à l'email utilisé pour l'exfiltration et au nom du dernier fichier exfiltré, par exemple `UHOCTF{attattacker@evil.com|passwords.txt}`
 
 [VBScape.zip](./VBScape.zip)
 
