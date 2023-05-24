@@ -23,6 +23,8 @@ D'après les rumeurs, les étudiants qui ont conçu le programme n'ont pas bien 
 
 **Flag** : `UHOCTF{fake_flag}`
 
+---
+
 ## Solution :
 
 Nous avons donc en notre possession un éxécutable Linux, il suffit de l'exécuter pour voir qu'il nous demande un mot de passe.

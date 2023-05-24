@@ -16,6 +16,8 @@ Décrypter le message suivant :
 
 **Flag** : `UHOCTF{message_original}`
 
+---
+
 ## Solution :
 
 On remarque dans le titre "Avocat", sous une autre lecture, on peut lire "A vaut K", ce qui nous fait penser à un chiffrement par décalage.

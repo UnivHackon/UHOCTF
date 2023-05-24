@@ -16,6 +16,8 @@ Suite au cours de compilation, un étudiant c'est intéressé aux langages de pr
 
 **Flag** : `UHOCTF{fake_flag}`
 
+---
+
 ## Solution :
 
 On peut utiliser le package python `chickenpy` pour déchiffrer le code.
