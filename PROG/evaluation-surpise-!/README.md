@@ -31,7 +31,7 @@ This challenge should be a Docker container that runs `python3 chall.py` on port
 The command to start the challenge is:
 
 ```bash
- docker run -p 40015:40000 --detach --name evaluation-suprise --network evaluation-supris evaluation-suprise:latest
+ docker run -p 40004:40000 --detach --name evaluation-suprise --network evaluation-supris evaluation-suprise:latest
 ```
 
 The command to stop the challenge (since CTRL+C won't work) is:
