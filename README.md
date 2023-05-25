@@ -8,16 +8,22 @@ Les challenges sont écrient en français.
 
 ## MISC
 
+- [Abrail et Vincon](MISC/Abrail-et-Vincon/README.md)
 - [Mouààà-Bouréééé-???](MISC/Mouààà-Bouréééé-???/README.md)
-
 
 ### CRYPTO
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md)
+- [HexaDecaLinguo](CRYPTO/HexaDecLinguo/README.md)
+- [Hyper-Loop](CRYPTO/Hyper-Loop/README.md)
+- [Hard](CRYPTO/Hard/README.md)
 
 ### PWN
 
+- [Intro](PWN/Intro/README.md)
 - [Calculateur express!](PWN/Calculateur-Express/README.md)
+- [Medium](PWN/Medium/README.md)
+- [Hard](PWN/Hard/README.md)
 
 ### JAIL
 
