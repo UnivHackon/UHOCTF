@@ -25,4 +25,3 @@ Alors voilà, mec, lalcool, c'est une expérience à vivre avec modération. Pro
 
 Format du flag : UHOCTF{flag}
 
-solution : UHOCTF{LALCOOLCESTDELO}
