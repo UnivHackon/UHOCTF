@@ -1,4 +1,4 @@
 #! /bin/sh
 
 cd /ctf
-./calculateur-express
+sh la_liste.sh

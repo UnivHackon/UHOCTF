@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tableau de notes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"] {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .form-group input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tableau de notes</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID étudiant</th>
+        <th>Nom</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>INE05184785</td>
+        <td>Senkei</td>
+        <td>19/20</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <form action="/ajouter" method="post">
+    <div class="form-group">
+      <label for="id">ID étudiant:</label>
+      <input type="text" id="id" name="id" required>
+    </div>
+    <div class="form-group">
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+    <div class="form-group">
+      <label for="note">Note:</label>
+      <input type="text" id="note" name="classement" required>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Ajouter">
+    </div>
+  </form>
+
+  <script>
+    function calculerSignature(note) {
+
+        const signature = Math.pow(note, 3) + Math.sqrt(note) + Math.log(note);
+
+
+      return signature;
+    }
+
+
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Empêcher la soumission du formulaire par défaut
+      
+        const noteInput = document.querySelector('#note');
+        const note = parseInt(noteInput.value);
+      
+        
+        // Envoi du formulaire avec une requête AJAX
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/ajouter');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onload = function() {
+          const response = JSON.parse(xhr.responseText).data
+
+          if (xhr.status === 200) {
+            alert(response)
+          }
+          else{
+            alert(response);
+          }
+        };
+        xhr.send(`note=${note}&signature=0`);
+      });
+  </script>
+
+
+</body>
+</html>
