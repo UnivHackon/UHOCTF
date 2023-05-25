@@ -2,7 +2,7 @@
 
 ## Auteur(s) :
 
-`Hokanosekai#1033`
+`Hokanosekai`
 
 ## Catégorie : 
 
