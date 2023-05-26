@@ -10,7 +10,7 @@
 
 ## Description :
 
-Des étudiants ont créé un site web à l'effigie de notre cher Tux. Cependant, ils ont commis une erreur... D'écouvrez laquelle !
+Des étudiants ont créé un site web à l'effigie de notre cher Tux. Cependant, ils ont commis une erreur... Déccouvrez la !
 
 > Note : Le flag se situe dans `/app/flag.txt`
 
