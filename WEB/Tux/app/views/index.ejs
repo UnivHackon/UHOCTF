@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Marguerite</title>
+</head>
+
+<body>
+    <div id="inputs">
+        <p>Fait parler Marguerite. Elle n'est pas très bavarde, elle ne comprend que 154 caractères MAX. Sinon ça bulle de texte débordera</p>
+        <p style="font-style: italic;">PS: Quand elle ne comprend pas une phrase, elle préfère dire une blague :)</p>
+        <input type="text" name="to_marguerite" id="to_marguerite">
+        <button onclick="generate()">Generate</button>
+    </div>
+    <div id="result"></div>
+</body>
+
+</html>
+
+<style>
+    html {
+        background-color: rgb(59, 57, 75);
+        color: wheat;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    #inputs {
+        text-align: center;
+    }
+
+    #inputs input {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #inputs button {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #result {
+        text-align: center;
+        margin-top: 50px;
+    }
+</style>
+
+<script>
+    function generate () {
+        let to_marguerite = $('#to_marguerite').val()
+        $.ajax(
+            {
+                url: '/generate',
+                type: "POST",
+                data: JSON.stringify({ value: to_marguerite }),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: data => {
+                    $("#result").html(`<pre>${data.code}</pre>`)
+                },
+                error: data => {
+                    $("#result").html(`
+                    Error
+                    `)
+                },
+            })
+    }
+</script>
