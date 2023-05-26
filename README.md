@@ -15,7 +15,7 @@ Les challenges sont écrient en français.
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md)
 - [HexaDecaLinguo](CRYPTO/HexaDecLinguo/README.md)
-- [Hyper-Loop](CRYPTO/Hyper-Loop/README.md)
+- [Cryptoxore](CRYPTO/Cryptoxore/README.md)
 - [Hard](CRYPTO/Hard/README.md)
 
 ### PWN
