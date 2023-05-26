@@ -2,20 +2,20 @@ const cookieParser = require('cookie-parser')
 const express = require('express')
 const { exec } = require("child_process");
 
-const PORT = process.env.PORT || 4560;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(cookieParser());
 
-class Cow {
+class Tux {
     constructor(value, defaultLength){
         this.value = value
         this.defaultLength = defaultLength
     }
 
-    async getCow(){
+    async getTux(){
         if (!this.value) {
             // Use 'fortune' to generate a random funny line, based on the input size
             try {
@@ -47,12 +47,12 @@ app.post('/generate', async (req, res) => {
         let newCow;
         // If the length is too long, we use a default according to the length
         if (value.length > 154)
-            newCow = new Cow(null, value.lenght)
+            newCow = new Tux(null, value.lenght)
         else {
-            newCow = new Cow(String(value))
+            newCow = new Tux(String(value))
         }
 
-        const code = await newCow.getCow()
+        const code = await newCow.getTux()
         res.json({ code });
     } catch (error) {
         res.status(422).json({ message: "error", reason: 'Unknow error' });

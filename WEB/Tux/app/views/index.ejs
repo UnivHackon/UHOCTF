@@ -8,14 +8,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Marguerite</title>
+    <title>Tux</title>
 </head>
 
 <body>
     <div id="inputs">
-        <p>Fait parler Marguerite. Elle n'est pas très bavarde, elle ne comprend que 154 caractères MAX. Sinon ça bulle de texte débordera</p>
-        <p style="font-style: italic;">PS: Quand elle ne comprend pas une phrase, elle préfère dire une blague :)</p>
-        <input type="text" name="to_marguerite" id="to_marguerite">
+        <p>Viens parler avec notre mentor Tux le Pingouin. Il n'est pas très bavard, il ne comprend que 154 caractères MAX. Sinon ça bulle de texte débordera</p>
+        <p style="font-style: italic;">PS: Quand il ne comprend pas une phrase, il préfèrera raconter une blague de son cru</p>
+        <input type="text" name="to_tux" id="to_tux">
         <button onclick="generate()">Generate</button>
     </div>
     <div id="result"></div>
@@ -52,12 +52,12 @@
 
 <script>
     function generate () {
-        let to_marguerite = $('#to_marguerite').val()
+        let to_tux = $('#to_tux').val()
         $.ajax(
             {
                 url: '/generate',
                 type: "POST",
-                data: JSON.stringify({ value: to_marguerite }),
+                data: JSON.stringify({ value: to_tux }),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: data => {

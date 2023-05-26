@@ -10,7 +10,11 @@
 
 ## Description :
 
+Des étudiants ont créé un site web à l'effigie de notre cher Tux. Cependant, ils ont commis une erreur... D'écouvrez laquelle !
 
+> Note : Le flag se situe dans `/app/flag.txt`
+
+**Flag** `UHOCTF{Un_M4nch07_n'3s7_p4s_un_P1n90u1n}`
 
 ## Solution
 
