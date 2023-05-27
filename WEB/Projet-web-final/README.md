@@ -1,12 +1,16 @@
+# Projet Web final
 
+Ce challenge est composé de 5 flag de niveau croissant:
 
-# Description:
+- 3 EASY
+- 1 MEDIUM
+- 1 HARD
 
-Easy, Easy, Easy, Medium, Hard
+## Auteurs : 
 
-Auteurs : Senkei, Hokanosekai
+`Senkei, Hokanosekai`
 
-```markdown
+## Description:
 
 Cette année on a du faire un projet complet avec des bases de données, un système connection alors on a décidé de faire une api flask pour vendre nos vps fournis par nos enseignants comme ça en plus de faire un bon projet on gagne de l'argent :D
 
@@ -17,15 +21,13 @@ Si vous pouvez nous donner votre avis sur notre projet on serait super content !
 
 `uhoctf.fr:40010`
 
---------------------
-
 Tous les flags de notre projet sont dans la source. ( allez les voir ! )
 
-FORMAT : UHOCTF{Fake_flag_X}
+Format : UHOCTF{Fake_flag_X}
 
-```
+---
 
-## Writeup
+## Solutions :
 
 Dans `server.py` on s'appercoit que le serveur flask est lancé en mode debug, on pourra donc récupérer les erreurs et le code de la fonction et ses commentaires associé.
 
