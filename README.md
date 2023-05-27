@@ -31,6 +31,10 @@ Les challenges sont écrient en français.
 * [YEET 1](JAIL/Yeet-1/README.md)
 * [YEET 2](JAIL/Yeet-2/README.md)
 
+### STEGANO
+
+### PENTEST
+
 ### PROG
 
 * [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md)
@@ -53,4 +57,5 @@ Les challenges sont écrient en français.
 - [Tux](WEB/Tux/README.md)
 - [top-promo](WEB/top-promo/README.md)
 - [referrrrrence](WEB/referrrrrence/README.md)
+- [Projet web final](WEB/Projet-web-final/README.md)
 
