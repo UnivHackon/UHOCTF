@@ -9,7 +9,7 @@ Les challenges sont écrient en français.
 ## MISC
 
 - [Abrail et Vincon](MISC/Abrail-et-Vincon/README.md)
-- [HexaDecaLinguo](MISC/HexaDecLinguo/README.md)
+- [HexaDecaLinguo](MISC/HexaDecaLinguo/README.md)
 - [Mouààà-Bouréééé-???](MISC/Mouààà-Bouréééé-???/README.md)
 - [Wordus](MISC/Wordus/README.md)
 
