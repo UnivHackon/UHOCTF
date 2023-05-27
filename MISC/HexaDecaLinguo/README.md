@@ -16,6 +16,8 @@
 
 S'il y a des espaces il faut les remplacer par des `_`.
 
+---
+
 ## Solution :
 
 On peut voir que les mots sont dans différentes langues. Il faut donc les traduire.
