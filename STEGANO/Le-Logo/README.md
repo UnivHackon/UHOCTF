@@ -1,13 +1,15 @@
-#### Auteur(s) :
+# Le Logo
+
+## Auteur(s) :
 `Senkei`
 
-#### Niveau :
-`Intro`
+## Niveau :
+`Easy / Medium`
 
-#### Catégorie :
+## Catégorie :
 `Stegano`
 
-#### Description :
+## Description :
 
 Le BDE de ton université a décidé de changer de logo. Ils ont fait appel à un graphiste qui a réalisé un logo pour eux. Cependant, le graphiste a caché un message dans le logo. Retrouve ce message.
 
@@ -16,7 +18,7 @@ Le BDE de ton université a décidé de changer de logo. Ils ont fait appel à u
 
 **Flag** - `XXXXXX-XX`
 
-#### Solution :
+## Solution :
 
 Le fichier fourni est un fichier SVG. On peut donc facilement l'ouvrir dans un navigateur, ou dans un site comme [SVG Viewer](https://www.svgviewer.dev/).
 

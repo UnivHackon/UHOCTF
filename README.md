@@ -35,8 +35,8 @@ Les challenges sont écrient en français.
 
 ### STEGANO
 
-- [All Colors Are Beautiful](STEGANO/All-Colors-Are-Beautiful/README.md)
-- [Reyko Medium](STEGANO/Reyko-Medium/README.md)
+- [Le Logo](STEGANO/Le-Logo/README.md)
+- [Bazar organisé](STEGANO/Bazar-organise/README.md)
 - [Reyko Hard](STEGANO/Reyko-Hard/README.md)
 
 ### PENTEST
