@@ -14,7 +14,7 @@ Tous les jours, je me rends à la fac en bus. Mais aujourd'hui, le bus est en pa
 
 `nc {ip} {port}`
 
-Exemple de graphe retourné par le serveur :
+Exemple de graphe créé par le serveur :
 
 ```json
 {
@@ -29,6 +29,16 @@ Exemple de graphe retourné par le serveur :
   "source": "A",
   "destination": "C"
 }
+```
+
+Puis on retourne sous le format suivant :
+
+```text
+A B 5
+B C 3
+A C 10
+-----
+A > C
 ```
 
 Exemple de réponse attendue :

@@ -15,7 +15,7 @@ Lors d'un cours de réseau, vous retrouvez une capture d'écran du résultat d'u
 Vous trouvez également un fichier python qui semble être un script de chiffrement.
 ```
 
-[image.png](https://i.imgur.com/PV7vZZe.png)
+![image.png](https://i.imgur.com/PV7vZZe.png)
 
 [cryptoxore.py]()
 

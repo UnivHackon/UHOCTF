@@ -1,0 +1,111 @@
+Quai valin 2
+Arsenal 1
+Arsenal 2
+Arsenal 3
+Marché
+Place de Verdun
+Maison de la Mobilité 1
+Maison de la Mobilité 2
+Préfecture
+Vieux Port 1
+Vieux Port 2
+Vieux Port 3
+Porte St Nicolas 2
+Malidor
+Mairie de Puilboreau
+Centre Aquatique de Châtelaillon
+Gare de Châtelaillon
+Office de Tourisme Châtelaillon
+Halte ferroviaire Angoulins
+Toucharé
+ZAC des fourneaux Angoulins
+Porte Dauphine
+Gare La Rochelle / Marais de Tasdon
+Piscine
+Médiathèque 1
+Mediathèque 2
+Bibliothèque Universitaire 2
+Office de Tourisme 1
+Office de Tourisme 2
+Gare 1
+Gare 2
+Dames Blanches
+La Rossignolette
+Faculté de Sciences 1
+Technoforum 2
+Porte de Cougnes
+Place Cacaud 1
+Place Cacaud 2
+EIGSI 1
+EIGSI 2
+EIGSI 3
+IUT 1
+IUT 2
+IUT 3
+Maison du Département
+Vaux de Foletier
+Maison du Port La Pallice
+Mairie Annexe de Laleu
+Mairie Annexe de Mireuil
+Place St Maurice
+Marché de Port Neuf
+Maison de l'Emploi
+La Genette coligny
+La Genette Guiton
+Plage de la Concurrence 1
+Plage de la Concurrence 2
+Vieljeux
+Debussy
+LEP de Rompsay
+Mairie Annexe de Villeneuve
+Centre Cial. de Villeneuve
+P+R Jean-Moulin
+Eglise de Tasdon
+Institut Confucius de Chine
+Plage des Minimes 1
+Plage des Minimes 2
+Lazaret
+Gymnase Universitaire 1
+Gymnase Universitaire 2
+Port de Pêche
+La Corniche
+Hôpital St Louis
+Marché de la Pallice
+Digue du Bout Blanc
+Lafond
+Commissariat
+Patte d'Oie
+Aquarium 2
+08 mai 1945
+Aéroport
+Alstom
+Auberge de Jeunesse
+Beauregard
+Centre Commercial Beaulieu
+Centre social vent des lles
+Clinique de l'Atlantique
+Clos Margat
+Complexe Sportif de Périgny
+Denfert Rochereau
+Espace Giraudeau
+Europe
+Géranium
+Halte ferroviaire d'Aytré
+Jean Monnet
+La Chope
+La Pommeraie
+Lieutenant Bernier
+Lycée Hotelier
+Mairie d'Aytré
+Mairie de Lagord
+Musée Maritime
+Normandin
+Oiseaux de Mer
+Palmilud
+Porte Royale
+Sautel
+Fief Rose
+P+R Beaulieu
+Europe Beaulieu 2
+Rompsay
+Plaine des Jeux Colette Besson
