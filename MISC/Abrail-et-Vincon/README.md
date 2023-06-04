@@ -1,13 +1,27 @@
 # Abrail, Braillard et Vincon
 
-Niveau - Introduction
+## Auteur(s) :
+`Senkei`
 
-Auteur - Senkei
+## Niveau :
+`Intro`
 
-## Description
+## Catégorie :
+`Misc`
 
->  IK TIK TIK TIKKK TIK TIK TIK
+## Description :
+Le son de la canne d'un aveugle peut être décrit comme suit :
+
+`Tap tap tap`
 
 ![BRAILLEUR](https://i.imgur.com/vdJOQXz.png)
 
-Format du flag : UHOCTF{flag}
+**Flag** :  `UHOCTF{FAKE_FLAG}`
+
+---
+
+## Solution :
+
+On peut voir sur l'image les points en braille. Il suffit de les retranscrire en lettres pour obtenir le flag.
+
+**Flag** :  `UHOCTF{AVEUGLE_MAIS_PAS_CON}`

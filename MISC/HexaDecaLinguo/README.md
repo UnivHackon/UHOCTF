@@ -1,20 +1,22 @@
 # HexaDecaLinguo (EASY)
 
 ## Auteur(s) :
-
 `Hokanosekai`
 
-## Catégorie :
+## Niveau :
+`Easy`
 
-`misc`
+## Catégorie :
+`Misc`
 
 ## Description :
-
 ```text
 ވަންއެނުޓު faiga 새 igisabo театр gelecek baso ako හවුල් warqad любовь habeen স্টেশন 眾生 فضاء قرن chidziwitso تأثير 沙 vaqt famintinana ուսումնական senyum foglia дерево coche aelōn̄ in моҳ vai
 ```
 
 S'il y a des espaces il faut les remplacer par des `_`.
+
+**Flag** : `UHOCTF{Fake_flag}`
 
 ---
 

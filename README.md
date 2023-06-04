@@ -8,17 +8,17 @@ Les challenges sont écrient en français.
 
 ## MISC
 
-- [Abrail et Vincon](MISC/Abrail-et-Vincon/README.md)
-- [HexaDecaLinguo](MISC/HexaDecaLinguo/README.md)
-- [Mouààà-Bouréééé-???](MISC/Mouààà-Bouréééé-???/README.md)
-- [Wordus](MISC/Wordus/README.md)
+- [Abrail et Vincon](MISC/Abrail-et-Vincon/README.md) ✅
+- [HexaDecaLinguo](MISC/HexaDecaLinguo/README.md) ✅
+- [Mouààà-Bouréééé-???](MISC/Mouààà-Bouréééé-???/README.md) ✅
+- [Wordus](MISC/Wordus/README.md) ✅
 
 ### CRYPTO
 
-- [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md)
+- [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md) ✅
 - [EASY](CRYPTO/EASY/README.md)
-- [Cryptoxore](CRYPTO/Cryptoxore/README.md)
-- [UHOCTF](CRYPTO/UHOCTF/README.md)
+- [Cryptoxore](CRYPTO/Cryptoxore/README.md) ✅
+- [UHOCTF](CRYPTO/UHOCTF/README.md) ✅
 
 ### PWN
 

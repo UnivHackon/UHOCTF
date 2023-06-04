@@ -1,12 +1,16 @@
-# Tux (EASY)
+# Wordus (EASY)
 
 ## Auteur(s) :
 
 `Hokanosekai`
 
+## Niveau :
+
+`Medium`
+
 ## Catégorie : 
 
-`misc`
+`Misc`
 
 ## Description :
 
@@ -16,10 +20,9 @@ Voici le site web créé par des étudiants de la promo lors d'une gamejam. Ils 
 
 > Note : Uniquement pour ce challenge, les joueurs sont autorisés à utiliser des outils d'énumération sur le serveur. (Toute autre attaque non autorisée sera sanctionnée)
 
-**Flag** `UHOCTF{...}`
+**Flag** `UHOCTF{Fake_flag}`
 
-## Hints :
-
+---
 
 ## Solution :
 

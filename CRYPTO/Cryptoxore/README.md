@@ -4,16 +4,18 @@
 
 `Hokanosekai`
 
+## Niveau :
+
+`Medium`
+
 ## Catégorie : 
 
-`crypto`
+`Crypto`
 
 ## Description :
 
-```
 Lors d'un cours de réseau, vous retrouvez une capture d'écran du résultat d'une commande linux.
 Vous trouvez également un fichier python qui semble être un script de chiffrement.
-```
 
 ![image.png](https://i.imgur.com/PV7vZZe.png)
 
