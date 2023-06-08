@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/admin", (req, res) => {
-    if (req.header("referer") === "YOU_SHOUD_NOT_PASS!") {
+    if (req.header("referer") === "ADMIN_LR_SECRET") {
         return res.send(process.env.FLAG);
     }
 
