@@ -123,7 +123,7 @@ sudo docker network create -d bridge calculateur_express
 The command to start the challenge is:
 
 ```bash
-sudo docker run -p 40010:40000 --detach --name calculateur_express --network calculateur_express calculateur_express:latest
+sudo docker run -p 40010:40010 --detach --name calculateur_express --network calculateur_express calculateur_express:latest
 ```
 
 The command to stop the challenge (since CTRL+C won't work) is:

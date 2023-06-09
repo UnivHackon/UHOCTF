@@ -35,7 +35,7 @@ sudo docker network create -d bridge azertyu
 The command to start the challenge is:
 
 ```bash
-sudo docker run -p 40001:40000 --detach --name azertyu --network azertyu azertyu:latest
+sudo docker run -p 40000:40000 --detach --name azertyu --network azertyu azertyu:latest
 ```
 
 The command to stop the challenge (since CTRL+C won't work) is:

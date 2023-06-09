@@ -37,7 +37,7 @@ sudo docker network create -d bridge yeet2
 The command to start the challenge is:
 
 ```bash
-sudo docker run -p 40021:40000 --detach --name yeet2 --network yeet2 yeet2:latest
+sudo docker run -p 40021:40021 --detach --name yeet2 --network yeet2 yeet2:latest
 ```
 
 The command to stop the challenge (since CTRL+C won't work) is:
