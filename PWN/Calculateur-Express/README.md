@@ -112,4 +112,24 @@ UHOCTF{fake_flag}
 [*] Stopped Process './calculateur_express' (pid 6870)
 ```
 
+## Hosting
+This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
+
+```bash
+sudo docker build -t calculateur_express .
+sudo docker network create -d bridge calculateur_express
+```
+
+The command to start the challenge is:
+
+```bash
+sudo docker run -p 40010:40000 --detach --name calculateur_express --network calculateur_express calculateur_express:latest
+```
+
+The command to stop the challenge (since CTRL+C won't work) is:
+
+```bash
+sudo docker stop calculateur_express
+```
+
 **Flag** : `UHOCTF{C4lcul3s_3t_3xpr3ss10ns_M4gn1f1qu3s!}`

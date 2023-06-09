@@ -35,7 +35,7 @@ sudo docker network create -d bridge laliste
 The command to start the challenge is:
 
 ```bash
-sudo docker run -p 40015:40000 --detach --name laliste --network laliste laliste:latest
+sudo docker run -p 40011:40000 --detach --name laliste --network laliste laliste:latest
 ```
 
 The command to stop the challenge (since CTRL+C won't work) is:
