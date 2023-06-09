@@ -11,7 +11,7 @@
 
 ## Description :
 ```text
-ވަންއެނުޓު faiga 새 igisabo театр gelecek baso ako හවුල් warqad любовь habeen স্টেশন 眾生 فضاء قرن chidziwitso تأثير 沙 vaqt famintinana ուսումնական senyum foglia дерево coche aelōn̄ in моҳ vai
+ޔުނިވަރސިޓީ Tala'aga 새 Ikibuga театр Gelecek ਭਾਸ਼ਾ lernejo zuva Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево porque কাৰণ моҳ wata
 ```
 
 S'il y a des espaces il faut les remplacer par des `_`.
@@ -26,35 +26,35 @@ On peut voir que les mots sont dans différentes langues. Il faut donc les tradu
 
 | Mot | Langue | Traduction |
 | --- | --- | --- |
-|Universite | Gan | ވަންއެނުޓު (vathuandi) |
-|Histoire | Tuvaluan | faiga |
+|Universite | Divéhi | ޔުނިވަރސިޓީ |
+|Histoire | Samoan | Tala'aga |
 |Oiseau | Korean | 새 (sae) |
-|Chateau | Kinyarwanda | igisabo |
+|Chateau | Kinyarwanda | Ikibuga |
 |Theatre | Kazak | театр (teatr) |
-|Futur | Turkish | gelecek |
-|Langage | Pattani Malay | baso |
-|ecole | Tongan | ako |
-|soleil | Sinhala | හවුල් (hawul) |
-|Livre | Afar | warqad |
+|Futur | Turkish | Gelecek |
+|Langage | Panjabi | ਭਾਸ਼ਾ |
+|ecole | Espéranto | lernejo |
+|soleil | Shona | zuva |
+|Livre | Afrikaans | Boek |
 |amour | Russian | любовь (lyubov') |
 |nuit | Somali | habeen |
 |gare | Bengali | স্টেশন (steshan) |
-|univers | Min Nan | 眾生 (tsiòng-seng) |
-|espace | Libyan Arabic | فضاء (fada') |
+|univers | Mizo | universe a ni |
+|espace | Swahili | nafasi |
 |siecle | Moroccan Arabic | قرن (qarn) |
-|Culture | Chichewa | chidziwitso |
+|Culture | Chichewa | Chikhalidwe |
 |effet | Gulf Arabic | تأثير (tathir) |
-|sable | Yue | 沙 (saa) |
+|sable | Yorouba | iyanrin |
 |temps | Uzbek | vaqt |
-|Plaisir | Malagasy | famintinana |
+|Plaisir | Malayalam | ആനന്ദം |
 |apprentissage | Armenian | ուսումնական (usumnakan) |
-|sourire | Bahasa Melayu | senyum |
-|Feuille | Italian | foglia |
+|sourire | Meitei | ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ |
+|Feuille | Italian | foglio |
 |arbre | Russian | дерево (derevo) |
-|car | Spanish | coche |
-|ile | Marshallese | aelōn̄ in |
+|car | Spanish | porque |
+|ile | Assamais | কাৰণ |
 |lune | Tajik | моҳ (moh) |
-|eau | Samoan | vai |
+|eau | Krio | wata |
 
 Une fois les mots traduits, on obtient :
 
