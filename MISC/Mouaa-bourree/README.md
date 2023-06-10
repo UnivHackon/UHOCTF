@@ -11,6 +11,8 @@ C'est Jeudi, la soirée étudiante ! Un de tes amis recoi un message, mais il es
 
 [message.txt](message.txt)
 
+> Note : Tous les espaces sont a remplacés per un `_`
+
 **Flag** :  `UHOCTF{Fake_flag}`
 
 ---
