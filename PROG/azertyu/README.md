@@ -1,25 +1,18 @@
-# Les claviers c'est pas facile quand ça veut pas
+# Les claviers c'est pas facile quand ça veut pas (EASY)
 
-Level - Facile
+#### Auteur(s)
+`Senkei`
 
-Auteur - Senkei
+#### Catégorie
+`Prog`
 
-Description:
-```
+#### Description:
+
 Le pauvre étudiant n'arrive plus à utiliser son clavier. Il a besoin de votre aide pour corriger ses erreurs.
 
-Renvoyer les mots corrigé.
+**Flag** : `UHOCTF{Fake_flag}`
 
-`nc huoctf.fr 40014`
-```
-
-## Instructions:
-
-L'étudiant reçois des chaines de charactères étrange...
-C'est enfaite des strings qui sont transformé de azerty vers qwerty.
-
-Il faut donc faire l'inverse pour retrouver le flag.
-
+---
 
 ## Solution
 
