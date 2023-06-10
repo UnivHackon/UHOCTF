@@ -6,7 +6,7 @@
 
 ## Catégorie : 
 
-`reverse`
+`Reverse`
 
 ## Description :
 
