@@ -10,6 +10,7 @@ Les challenges sont écrient en français.
 ❌ : Pas encore fait  
 🟡 : Manque la solution  
 🟠 : Pas mis en forme  
+☑️ : Pas en ligne  
 ⏳ : En cours de rédaction  
 
 ## MISC
@@ -22,7 +23,7 @@ Les challenges sont écrient en français.
 ### CRYPTO
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md) ✅
-- [EASY](CRYPTO/EASY/README.md) ❌
+- [Elion Husk](CRYPTO/Elion-Husk/README.md) ☑️
 - [Cryptoxore](CRYPTO/Cryptoxore/README.md) ✅
 - [UHOCTF](CRYPTO/UHOCTF/README.md) ✅
 
