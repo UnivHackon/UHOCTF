@@ -4,10 +4,6 @@
 
 `Hokanosekai`
 
-## Niveau :
-
-`Medium`
-
 ## Catégorie : 
 
 `Crypto`

@@ -4,10 +4,6 @@
 
 `Hokanosekai, Senkei`
 
-## Niveau :
-
-`Hard`
-
 ## Catégorie : 
 
 `Crypto`
