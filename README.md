@@ -30,6 +30,7 @@ Les challenges sont écrient en français.
 - [La liste](PWN/La-liste/README.md) ✅
 - [Calculateur express!](PWN/Calculateur-Express/README.md) 🟠🟡
 - [Medium](PWN/Medium/README.md) ❌
+- [Hard](PWN/Hard/README.md) ❌
 
 ### JAIL
 

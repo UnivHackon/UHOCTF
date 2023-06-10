@@ -6,13 +6,13 @@
 
 ## Catégorie : 
 
-`pwn`
+`Pwn`
 
 ## Description :
 
 Résoudre tous les calcules en moins de 1min.
 
-`nc {IP} {PORT}`
+`nc 161.35.21.37 40010`
 
 **Flag** : `UHOCTF{fake_flag}`
 
@@ -112,8 +112,9 @@ UHOCTF{fake_flag}
 [*] Stopped Process './calculateur_express' (pid 6870)
 ```
 
+**Flag** : `UHOCTF{C4lcul3s_3t_3xpr3ss10ns_M4gn1f1qu3s!}`
+
 ## Hosting
-This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
 
 ```bash
 sudo docker build -t calculateur_express .
@@ -131,5 +132,3 @@ The command to stop the challenge (since CTRL+C won't work) is:
 ```bash
 sudo docker stop calculateur_express
 ```
-
-**Flag** : `UHOCTF{C4lcul3s_3t_3xpr3ss10ns_M4gn1f1qu3s!}`

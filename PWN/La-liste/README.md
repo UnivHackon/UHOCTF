@@ -9,6 +9,8 @@
 ## Description:
 Les enseignants de ton université veulent se débarrasser de toi. Trouve la raison pour prouver que tu n'as rien fait !
 
+`nc 161.35.21.37 40011`
+
 **Flag** : `UHOCTF{Fake_flag}`
 
 ---
@@ -25,8 +27,6 @@ Voici mon payload :)
 **Flag** - `UHOCTF{N0n_J3_RigolE_Tu_Peux_Resterehe}`
 
 ## Hosting
-
-This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
 
 ```bash
 sudo docker build -t laliste .
