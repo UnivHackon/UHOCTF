@@ -7,8 +7,6 @@ commands:
   flag:
     description: "Permet de récuperer le flag"
     usage: /flag
-    permission: wordus.flag
   wordus:
     description: "Permet de lancer le jeu"
     usage: /wordus
-    permission: wordus.wordus

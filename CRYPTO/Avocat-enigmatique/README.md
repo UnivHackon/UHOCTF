@@ -6,13 +6,13 @@
 
 ## Catégorie : 
 
-`crypto`
+`Crypto`
 
 ## Description :
 
 Décrypter le message suivant :
 
-`Vk zvksnys|so kymk~skvo o}~ x k|~ }l~sv`
+`Bq fbqyteyhyu qlesqjyqbu uij kd qhj ikrjyb`
 
 **Flag** : `UHOCTF{message_original}`
 
@@ -36,14 +36,14 @@ def decrypt(message):
     for char in message:
         if char.isalpha():
             if char.isupper():
-                decrypted += chr((ord(char) - 65 - 10) % 26 + 65)
+                decrypted += chr((ord(char) - 65 + 10) % 26 + 65)
             else:
-                decrypted += chr((ord(char) - 97 - 10) % 26 + 97)
+                decrypted += chr((ord(char) - 97 + 10) % 26 + 97)
         else:
             decrypted += char
     return decrypted
 
-print(decrypt("Vk zvksnys|so kymk~skvo o}~ x k|~ }l~sv"))
+print(decrypt("Bq fbqyteyhyu qlesqjyqbu uij kd qhj ikrjyb"))
 ```
 
 **Flag** : `UHOCTF{La_plaidoirie_avocatiale_est_un_art_subtil}`
