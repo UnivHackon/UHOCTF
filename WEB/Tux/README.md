@@ -6,7 +6,7 @@
 
 ## Catégorie : 
 
-`web`
+`Web`
 
 ## Description :
 
@@ -30,7 +30,6 @@ Voici mon payload :
 **Flag** `UHOCTF{Un_M4nch07_n'3s7_p4s_un_P1n90u1n}`
 
 ## Hosting
-This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
 
 ```bash
 sudo docker build -t laliste .
