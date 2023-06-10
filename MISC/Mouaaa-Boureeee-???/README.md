@@ -20,4 +20,8 @@ C'est Jeudi, la soirée étudiante ! Un de tes amis recoi un message, mais il es
 
 ## Solution :
 
+On remarque les mots suivants qui reviennent souvent : `Lalcool` et `Cestdelo`.
+
+On peut donc en déduire le flag.
+
 **Flag** :  `UHOCTF{Lalcool_Cestdelo}`

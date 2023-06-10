@@ -28,8 +28,8 @@ Les challenges sont écrient en français.
 
 ### JAIL
 
-- [YEET 1](JAIL/Yeet-1/README.md)
-- [YEET 2](JAIL/Yeet-2/README.md)
+- [YEET 1](JAIL/Yeet-1/README.md) ✅
+- [YEET 2](JAIL/Yeet-2/README.md) ✅
 - [Medium](JAIL/Medium/README.md)
 - [Hard](JAIL/Hard/README.md)
 
