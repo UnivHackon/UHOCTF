@@ -71,9 +71,9 @@ Les challenges sont écrient en français.
 ### WEB
 
 - [Tux](WEB/Tux/README.md) ✅
-- [top-promo](WEB/top-promo/README.md) 🟡
-- [referrrrrence](WEB/referrrrrence/README.md) 🟠🟡
-- [Projet web final](WEB/Projet-web-final/README.md) 🟠🟡
+- [Top Promo](WEB/top-promo/README.md) 🟡
+- [T'as la référrrrrrence ?](WEB/referrrrrence/README.md) 🟡
+- [Projet web final](WEB/Projet-web-final/README.md) ✅
 
 ### OSINT
 

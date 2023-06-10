@@ -19,11 +19,13 @@ On est pas sur d'avoir suivi les bonnes pratiques mais on a essayé de faire de 
 Si vous pouvez nous donner votre avis sur notre projet on serait super content ! Et si vous trouvez des bugs on est preneur aussi !
 
 
-`uhoctf.fr:40010`
+[https://projet-final.univhackon.fr](https://projet-final.univhackon.fr)
+
+[Projet-web-final.zip](./Projet-web-final.zip)
 
 Tous les flags de notre projet sont dans la source. ( allez les voir ! )
 
-Format : UHOCTF{Fake_flag_X}
+**Flag** : `UHOCTF{Fake_flag_1}`
 
 ---
 
