@@ -1,27 +1,21 @@
-# Petit hacking en salle de  tp
+# Petit vol en TP (INTRO)
 
-Niveau - Introduction
+## Auteur(s) :
+`Senkei`
 
-Auteur - Senkei
+## Catégorie :
+`Forensic`
 
-## Description
+## Description :
+Un élève mal intentionné a capturé le trafic réseau de son poste pendant que son professeur se connectait pour y récupérer un fichier.
 
-Auteur : Senkei
+Quels sont le nom d'utilisateur et le mot de passe qu'a utilisé le professeur.
 
-```
+**Flag** : `UHOCTF{user:passwd}`
 
-Un elève mal attentionné a capturé le trafic réseau de son poste pendant que son professeur se connectait pour y recupérer un fichier.
-
-Quel est le nom d'utilisateur et le mot de passe qu'a utilisé le professeur ?
-```
-
-
-Format du flag : UHOCTF{user:passwd}
-
-
+---
 
 # Solution
-
 
 On a un fichier pcap, on l'ouvre avec wireshark et on cherche un peu.
 
@@ -41,7 +35,6 @@ On peut maintenant filtrer les échanges entre le poste de l'élève et le poste
 
 ![User](https://i.imgur.com/4fqUa49.png)!
 
-
-On a donc le flag : UHOCTF{tpuser:T3lN3t_iS_n3t_Secure!!}
+**Flag** : `UHOCTF{tpuser:T3lN3t_iS_n3t_Secure!!}`
 
 
