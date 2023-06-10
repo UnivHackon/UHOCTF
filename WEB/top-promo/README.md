@@ -1,27 +1,24 @@
-# T'as la référrrrrence ?
+# Top Promo (EASY)
 
-Level - Easy
+## Auteur(s) :
+`Senkei`
 
-Auteur - Senkei
+## Catégorie :
+`Web`
 
-Description:
-```
+## Description :
 
-Les enseignant de ton université veulent se débarrasser de toi. Trouve la raison pour prouver que tu n'as rien fait !
+Triche et valide ton année.
 
-```
+**Flag** : `UHOCTF{Fake_flag}`
 
-## Instructions:
-
-Un étudiant te propose un petit défi. 
+---
 
 ## Solution
 
-Voici mon payload :)
-```
-. raison.txt ; cat raison.txt
 
-```
+
+**Flag** - `UHOCTF{N0n_J3_RigolE_Tu_Peux_Resterehe}`
 
 ## Hosting
 This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
@@ -43,5 +40,3 @@ The command to stop the challenge (since CTRL+C won't work) is:
 sudo docker stop laliste
 ```
 
-
-**Flag** - `UHOCTF{N0n_J3_RigolE_Tu_Peux_Resterehe}`
