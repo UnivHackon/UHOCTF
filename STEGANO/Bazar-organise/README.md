@@ -1,10 +1,7 @@
-# Bazar organisé
+# Bazar organisé (MEDIUM)
 
 ## Auteur(s) :
 `Reyko`
-
-## Niveau :
-`Medium`
 
 ## Catégorie :
 `Stegano`
@@ -22,7 +19,11 @@ Pour retrouver le message, votre vieil ami vous a transmis 2 informations capita
 Retrouvez le message secret dans le texte ci-dessous.
 Une technique spécifique de stéganographie devra être utilisée.
 
+[message.txt](message.txt)
+
 **Flag** `UHOCTF{un_message_secret}`
+
+---
 
 ## Solution :
 

@@ -42,7 +42,7 @@ Les challenges sont écrient en français.
 ### STEGANO
 
 - [Le Logo](STEGANO/Le-Logo/README.md) ✅
-- [Bazar organisé](STEGANO/Bazar-organise/README.md) 🟠🟡
+- [Bazar organisé](STEGANO/Bazar-organise/README.md) ✅
 - [Reyko Hard](STEGANO/Reyko-Hard/README.md) ❌
 
 ### PENTEST
