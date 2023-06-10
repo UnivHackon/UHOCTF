@@ -1,30 +1,32 @@
-# Les claviers c'est pas facile quand ça veut pas
+# Yeet 1 (EASY)
 
-Level - Easy
+## Auteur(s)
+`Senkei`
 
-Auteur - Senkei
+## Catégorie
+`Jail`
 
-Description:
-```
-
+## Description:
 Un étudiant te propose un petit défi. Ne cherche pas trop loin !
 
-```
+**Flag** : `UHOCTF{Fake_flag}`
 
-## Instructions:
+[yeet.py](src/yeet.py)
 
-Un étudiant te propose un petit défi un peux plus compliqué que le premier ! 
+---
 
 ## Solution
 
 
 On peux voir que le 0 n'est pas pris dans le regex -> il faut utiliser l'hexadécimal.
 
+```python
 9580 / 15 (0xf) = 638 
 0xa = 10
 payload = "0xf+"*638 + "0xa"
+```
 
-
+**Flag** - `UHOCTF{W0w_Tr00p_F4c1l3?}`
 
 ## Hosting
 This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
@@ -46,5 +48,3 @@ The command to stop the challenge (since CTRL+C won't work) is:
 sudo docker stop yeet2
 ```
 
-
-**Flag** - `UHOCTF{W0w_Tr00p_F4c1l3?}`

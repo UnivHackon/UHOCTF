@@ -13,6 +13,8 @@ Un étudiant te propose un petit défi. Ne cherche pas trop loin !
 
 [yeet.py](src/yeet.py)
 
+---
+
 ## Solution
 
 ```python
