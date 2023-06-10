@@ -1,10 +1,7 @@
-# Le Logo
+# Le Logo (EASY / MEDIUM)
 
 ## Auteur(s) :
 `Senkei`
-
-## Niveau :
-`Easy / Medium`
 
 ## Catégorie :
 `Stegano`
@@ -17,6 +14,8 @@ Le BDE de ton université a décidé de changer de logo. Ils ont fait appel à u
 
 
 **Flag** - `XXXXXX-XX`
+
+---
 
 ## Solution :
 

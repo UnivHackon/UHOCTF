@@ -28,7 +28,7 @@ Les challenges sont écrient en français.
 ### PWN
 
 - [La liste](PWN/La-liste/README.md) ✅
-- [Calculateur express!](PWN/Calculateur-Express/README.md) 🟠🟡
+- [Calculateur express!](PWN/Calculateur-Express/README.md) ✅
 - [Medium](PWN/Medium/README.md) ❌
 - [Hard](PWN/Hard/README.md) ❌
 
@@ -41,7 +41,7 @@ Les challenges sont écrient en français.
 
 ### STEGANO
 
-- [Le Logo](STEGANO/Le-Logo/README.md) 🟠🟡
+- [Le Logo](STEGANO/Le-Logo/README.md) ✅
 - [Bazar organisé](STEGANO/Bazar-organise/README.md) 🟠🟡
 - [Reyko Hard](STEGANO/Reyko-Hard/README.md) ❌
 
