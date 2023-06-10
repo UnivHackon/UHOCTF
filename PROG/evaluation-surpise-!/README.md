@@ -1,27 +1,27 @@
-# Evaluation Surprise !
+# Evaluation Surprise ! (INTRO)
 
-Level - Introduction
+#### Auteur(s)
+`Senkei`
 
-Description:
-```
+#### Catégorie
+`Prog`
 
-Les premières années doivent apprendre les rudiment de la programmation. Ils doivent écrire leurs première calculatrice !
+#### Description:
 
-Vérifier vos input !
+Les premières années doivent apprendre les rudiments de la programmation. Ils doivent écrire leur première calculatrice !
 
-`nc huoctf.fr 40013`
-```
+Vérifier vos inputs !
 
-## Instructions:
-
-Les étudiants ont des calculs qu'ils doivent faire. Ils doivent donc faire un programme qui prend en entrée une chaine de charactère et qui renvoie le résultat du calcul.
+**Flag** : `UHOCTF{Fake_flag}`
 
 
 ## Solution
 
 
+**Flag** - `UHOCTF{Ev3LuAtI0nS*rPise}`
+
+
 ## Hosting
-This challenge should be a Docker container that runs `python3 chall.py` on port 40014. All the proper files are included in here. The command to build the docker container is (when located inside of this directory):
 
 ```bash
  docker build -t evaluation-suprise .
@@ -41,4 +41,3 @@ The command to stop the challenge (since CTRL+C won't work) is:
 ```
 
 
-**Flag** - `UHOCTF{Ev3LuAtI0nS*rPise}`

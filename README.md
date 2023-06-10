@@ -50,7 +50,7 @@ Les challenges sont écrient en français.
 ### PROG
 
 - [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md) 🟡
-- [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) 🟠🟡
+- [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) 🟡
 - [Le chemin le plus court vers la FAC](PROG/Le-chemin-le-plus-court-vers-la-FAC/README.md) ❌
 - [Hard](PWN/Hard/README.md) ❌
 
