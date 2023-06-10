@@ -11,6 +11,8 @@ Un élève mal intentionné a capturé le trafic réseau de son poste pendant qu
 
 Quels sont le nom d'utilisateur et le mot de passe qu'a utilisé le professeur.
 
+[tplab.pcap](./tplab.pcap)
+
 **Flag** : `UHOCTF{user:passwd}`
 
 ---
