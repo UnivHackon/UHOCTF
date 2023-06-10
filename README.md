@@ -83,9 +83,9 @@ Les challenges sont écrient en français.
 
 ### OSINT
 
-- [Benjamin Courant 1](OSINT/Benjamin-Courant-1/README.md) 🟠🟡
-- [Benjamin Courant 2](OSINT/Benjamin-Courant-2/README.md) 🟠🟡
-- [Benjamin Courant 3](OSINT/Benjamin-Courant-3/README.md) 🟠🟡
-- [Benjamin Courant 4](OSINT/Benjamin-Courant-4/README.md) 🟠🟡
+- [Benjamin Courant 1](OSINT/Benjamin-Courant-1/README.md) 🟡
+- [Benjamin Courant 2](OSINT/Benjamin-Courant-2/README.md) 🟡
+- [Benjamin Courant 3](OSINT/Benjamin-Courant-3/README.md) 🟡
+- [Benjamin Courant 4](OSINT/Benjamin-Courant-4/README.md) 🟡
 
 
