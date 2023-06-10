@@ -1,4 +1,4 @@
-# UHOCTF (HARD)
+# Plus court ou plus rapide ? (HARD)
 
 ## Auteur(s) :
 
@@ -6,7 +6,7 @@
 
 ## Catégorie : 
 
-`prog`
+`Prog`
 
 ## Description :
 

@@ -6,11 +6,11 @@
 Retrouver ici tous nos challenges avec leurs writeups.
 Les challenges sont écrient en français.
 
-✅ : OK
-❌ : Pas encore fait
-🟡 : Manque la solution
-🟠 : Pas mis en forme
-⏳ : En cours de rédaction
+✅ : OK  
+❌ : Pas encore fait  
+🟡 : Manque la solution  
+🟠 : Pas mis en forme  
+⏳ : En cours de rédaction  
 
 ## MISC
 
@@ -48,12 +48,17 @@ Les challenges sont écrient en français.
 
 ### PENTEST
 
+- [Intro](PENTEST/Intro/README.md) ❌
+- [Easy](PENTEST/Easy/README.md) ❌
+- [Medium](PENTEST/Medium/README.md) ❌
+- [Hard](PENTEST/Hard/README.md) ❌
+
 ### PROG
 
 - [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md) 🟡
 - [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) 🟡
+- [Medium](PROG/Medium/README.md) ❌
 - [Le chemin le plus court vers la FAC](PROG/Le-chemin-le-plus-court-vers-la-FAC/README.md) ⏳
-- [Hard](PWN/Hard/README.md) ❌
 
 ### REVERSE
 
@@ -67,7 +72,7 @@ Les challenges sont écrient en français.
 - [Petit vol en tp](FORENSIC/Petit-vol-en-tp/README.md) ✅
 - [Ciscolaire](FORENSIC/Ciscolaire/README.md) 🟡
 - [Clef USB](FORENSIC/Clef-USB/README.md) ⏳
-
+- [Hard](FORENSIC/Hard/README.md) ❌
 
 ### WEB
 

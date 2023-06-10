@@ -17,7 +17,11 @@
 Lors d'un cours de réseau, vous retrouvez une capture d'écran du résultat d'une commande linux.
 Vous trouvez également un fichier python qui semble être un script de chiffrement.
 
-![image.png](https://i.imgur.com/PV7vZZe.png)
+```bash
+hoka@hoka N/c/U/U/C/C/src (main)> python3 chall.py
+bytearray(b'>ZCt\xf8j\x7f9a\xe3\xdeX`9\x06\xd8\x1d73W\xe2\xfa4Qd\x03\x9d\x1d7\x02h\xe1\xd5')
+hoka@hoka N/c/U/U/C/C/src (main)> 
+```
 
 [cryptoxore.py](src/cryptoxore.py)
 
