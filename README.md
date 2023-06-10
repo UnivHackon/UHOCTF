@@ -10,6 +10,7 @@ Les challenges sont écrient en français.
 ❌ : Pas encore fait
 🟡 : Manque la solution
 🟠 : Pas mis en forme
+⏳ : En cours de rédaction
 
 ## MISC
 
@@ -21,7 +22,7 @@ Les challenges sont écrient en français.
 ### CRYPTO
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md) ✅
-- [EASY](CRYPTO/EASY/README.md)
+- [EASY](CRYPTO/EASY/README.md) ❌
 - [Cryptoxore](CRYPTO/Cryptoxore/README.md) ✅
 - [UHOCTF](CRYPTO/UHOCTF/README.md) ✅
 
@@ -29,7 +30,7 @@ Les challenges sont écrient en français.
 
 - [La liste](PWN/La-liste/README.md) ✅
 - [Calculateur express!](PWN/Calculateur-Express/README.md) ✅
-- [Medium](PWN/Medium/README.md) ❌
+- [Vip at Coffee](PWN/Vip-at-coffee/README.md) ⏳
 - [Hard](PWN/Hard/README.md) ❌
 
 ### JAIL
@@ -51,7 +52,7 @@ Les challenges sont écrient en français.
 
 - [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md) 🟡
 - [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) 🟡
-- [Le chemin le plus court vers la FAC](PROG/Le-chemin-le-plus-court-vers-la-FAC/README.md) ❌
+- [Le chemin le plus court vers la FAC](PROG/Le-chemin-le-plus-court-vers-la-FAC/README.md) ⏳
 - [Hard](PWN/Hard/README.md) ❌
 
 ### REVERSE
@@ -65,7 +66,7 @@ Les challenges sont écrient en français.
 
 - [Petit vol en tp](FORENSIC/Petit-vol-en-tp/README.md) ✅
 - [Ciscolaire](FORENSIC/Ciscolaire/README.md) 🟡
-- [Clef USB](FORENSIC/Clef-USB/README.md) ❌
+- [Clef USB](FORENSIC/Clef-USB/README.md) ⏳
 
 
 ### WEB
