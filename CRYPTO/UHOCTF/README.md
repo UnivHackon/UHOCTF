@@ -51,7 +51,7 @@ On remarque Gros Projet X A La Fac dans le sujet le nom bizzare, de plus on peut
 On va donc tester de décrypter avec un ADFGVX avec une table modifiée.
 
 ```
-CARRE DE POLYBE :UOHCTF et GPXALFBCDEHIJKMNOQRSTUVWYZ0123456789 
+CARRE DE POLYBE : UOHCTF et GPXALFBCDEHIJKMNOQRSTUVWYZ0123456789 
 CLEF : 632154
 
 On obtient :
