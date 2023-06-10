@@ -27,7 +27,7 @@ Les challenges sont écrient en français.
 
 ### PWN
 
-- [La liste](PWN/La-liste/README.md) 🟠🟡
+- [La liste](PWN/La-liste/README.md) ✅
 - [Calculateur express!](PWN/Calculateur-Express/README.md) 🟠🟡
 - [Medium](PWN/Medium/README.md) ❌
 
