@@ -16,7 +16,7 @@ Les challenges sont écrient en français.
 
 - [Abrail et Vincon](MISC/Abrail-et-Vincon/README.md) ✅
 - [HextaDecLadingo](MISC/HextaDecLadingo/README.md) ✅
-- [Mouààà-Bouréééé-???](MISC/Mouààà-Bouréééé-???/README.md) ✅
+- [Mouààà-Bouréééé-???](MISC/Mouaa-bourree/README.md) ✅
 - [Wordus](MISC/Wordus/README.md) ✅
 
 ### CRYPTO

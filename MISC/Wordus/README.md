@@ -1,12 +1,8 @@
-# Wordus (EASY)
+# Wordus (MEDIUM)
 
 ## Auteur(s) :
 
 `Hokanosekai`
-
-## Niveau :
-
-`Medium`
 
 ## Catégorie : 
 

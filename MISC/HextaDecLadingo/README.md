@@ -3,9 +3,6 @@
 ## Auteur(s) :
 `Hokanosekai`
 
-## Niveau :
-`Easy`
-
 ## Catégorie :
 `Misc`
 

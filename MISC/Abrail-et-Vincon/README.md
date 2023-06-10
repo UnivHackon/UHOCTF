@@ -3,9 +3,6 @@
 ## Auteur(s) :
 `Senkei`
 
-## Niveau :
-`Intro`
-
 ## Catégorie :
 `Misc`
 
