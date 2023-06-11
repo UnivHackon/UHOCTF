@@ -13,7 +13,7 @@ Les challenges sont écrient en français.
 ☑️ : Pas en ligne  
 ⏳ : En cours de rédaction  
 
-## MISC
+### MISC
 
 - [Abrail et Vincon](MISC/Abrail-et-Vincon/README.md) ✅
 - [HextaDecLadingo](MISC/HextaDecLadingo/README.md) ✅
