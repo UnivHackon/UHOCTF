@@ -8,7 +8,7 @@
 
 ## Description :
 ```text
-ޔުނިވަރސިޓީ Tala 새 Ikibuga театр Gelecek ਭਾਸ਼ਾ lernejo araw Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево cubo কাৰণ моҳ wata
+ޔުނިވަރސިޓީ Tala 새 Ikibuga театр Gelecek ਭਾਸ਼ਾ lernejo aurinko Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево cubo কাৰণ моҳ wata
 ```
 
 S'il y a des espaces il faut les remplacer par des `_`.
@@ -31,7 +31,7 @@ On peut voir que les mots sont dans différentes langues. Il faut donc les tradu
 |Futur | Turkish | Gelecek |
 |Langage | Panjabi | ਭਾਸ਼ਾ |
 |ecole | Espéranto | lernejo |
-|soleil | Filippo | araw |
+|soleil | Finnish | aurinko |
 |Livre | Afrikaans | Boek |
 |amour | Russian | любовь (lyubov') |
 |nuit | Somali | habeen |
