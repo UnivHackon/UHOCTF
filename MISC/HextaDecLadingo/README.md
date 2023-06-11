@@ -8,7 +8,7 @@
 
 ## Description :
 ```text
-ޔުނިވަރސިޓީ Tala 새 Dvorac театр Gelecek ਭਾਸ਼ਾ lernejo aurinko Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево cubo কাৰণ моҳ wata
+ޔުނިވަރސިޓީ Tala 새 Dvorac театр Gelecek ਭਾਸ਼ਾ lernejo aurinko Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево cubo otok моҳ wata
 ```
 
 S'il y a des espaces il faut les remplacer par des `_`.
@@ -49,7 +49,7 @@ On peut voir que les mots sont dans différentes langues. Il faut donc les tradu
 |Feuille | Italian | foglio |
 |arbre | Russian | дерево (derevo) |
 |cube | Spanish | cubo |
-|ile | Assamais | কাৰণ |
+|ile | Croatian | otok |
 |lune | Tajik | моҳ (moh) |
 |eau | Krio | wata |
 
