@@ -1,0 +1,88 @@
+.range {
+    display: flex;
+    flex-direction: column;
+}
+
+.range .slider-value{
+    position: relative;
+    width: 150%;
+    left: -25%;
+}
+
+.range .slider-value span{
+    position: absolute;
+    height: 45px;
+    color: white;
+    font-weight: 600;
+    top: -25px;
+    transform-origin: bottom;
+    transition: transform 0.3s ease-in-out;
+    line-height: 55px;
+    z-index: 2;
+}
+.range.game-duration .slider-value span{
+    color: var(--color_player_blue);
+    left: 27%;
+    user-select: none;
+}
+.range.words-number .slider-value span {
+    color: var(--color_player_green);
+    left: 49%;
+    user-select: none;
+}
+
+.range .slider-value span:after{
+    position: absolute;
+    content: "";
+    height:45px;
+    width:45px;
+    z-index: -1;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none;
+    height:5px;
+    background:#ddd;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    width:100%;
+    margin-top: 20px;
+}
+
+.range input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    border: 5px var(--color_white) solid;
+    width: 23px;
+    height: 23px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.range input[type="range"]::-moz-range-thumb {
+    border: 5px var(--color_white) solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.range.game-duration input[type="range"]::-webkit-slider-thumb {
+    background: var(--color_player_blue);
+}
+.range.game-duration input[type="range"]::-moz-range-thumb {
+    background: var(--color_player_blue);
+}
+.range.words-number input[type="range"]::-webkit-slider-thumb {
+    background: var(--color_player_green);
+}
+.range.words-number input[type="range"]::-moz-range-thumb {
+    background: var(--color_player_green);
+}
+
+
+.range label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color_word_font_fill)
+}

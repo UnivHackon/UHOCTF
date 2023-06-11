@@ -1,0 +1,27 @@
+:root {
+    --color_white: #FFF;
+    --color_black: #000;
+    --color_background: #353F54;
+    --color_grey: #E5E5E5;
+
+    --color_red: #FF5E73;
+    --color_word_default: #D6D6D6;
+    --color_word_font_default: #A9A9A9;
+    --color_word_font_fill: #7C7C7C;
+
+    --color_player_dark_pink: #B85EFF;
+    --color_player_light_pink: #FF5EBA;
+    --color_player_blue: #5E94FF;
+    --color_player_yellow: #FFCC5E;
+    --color_player_green: #2CDA75;
+    --color_player_brown: #BE7B67;
+
+    --color_podium_first: #FFE300;
+    --color_podium_second: #939393;
+    --color_podium_third: #FF8E00;
+
+    --color_error: #de0000;
+    --color_warning: #de7a00;
+    --color_info: #0090de;
+    --color_success: #24af06;
+}

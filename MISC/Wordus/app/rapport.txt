@@ -1,0 +1,38 @@
+RAPPORT DE GAME JAM:
+https://trello.com/b/V9thTpmx/guemjamme
+
+
+19:00- Arrivé surle lieu de la GameJam
+
+20:00- On a finit de manger et de setup le wifi
+
+21:30- Echange pour definir la game concept
+       Vision Global, Principe, Gameplay,
+
+22:22- Repartition du travail
+
+23:10- Debut de la construction de la maquette et composition musique
+
+00:33- Fin de la composition de la musique/ Theme et colorimetrie Acquis
+
+01:00- Language choisie Node JS / Debut du dev
+
+02:20- Bug Code with me Blocage du dev
+
+02:51- Correction du Bug dev relancé (socket.io)
+
+05:00- Installation de scocket.io Terminer
+
+06:20- Disign Terminer (debut du dev Front)
+
+08:00- Reflexion du systeme de room
+
+11:00- Pause Dodo pour certains
+
+13:00- Fin de Front des trois pages prévue
+
+
+
+
+
+

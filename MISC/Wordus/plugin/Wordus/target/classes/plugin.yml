@@ -1,0 +1,12 @@
+name: Wordus
+version: 1.0
+author:  Hokanosekai
+main:  fr.hokanosekai.Wordus
+api-version: 1.17
+commands:
+  flag:
+    description: "Permet de récuperer le flag"
+    usage: /flag
+  wordus:
+    description: "Permet de lancer le jeu"
+    usage: /wordus

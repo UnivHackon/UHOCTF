@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rejoindre une partie</title>
+
+        <link rel="stylesheet" href="css/master.css">
+        <script src="../js/client/join_bundle.js" defer></script>
+
+        <link rel="icon" href="../src/img/logo/Logo.png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="https://kit.fontawesome.com/1a3a0ccf9e.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="join">
+        <div class="notifications-container"></div>
+
+        <form id="join_room">
+            <div class="form-wrapper">
+                <img class="color-pink" id="avatar" src="../src/img/avatar_1.png">
+
+                <div id="random_avatar" class="btn color-pink">
+                    <svg viewBox="0 0 38 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <g transform="matrix(1,0,0,1,-3160.2,-486.799)">
+                            <g transform="matrix(1,0,0,1,1510.69,-15.4586)">
+                                <g transform="matrix(0.7086,0.189869,-0.189869,0.7086,599.924,-159.105)">
+                                    <path d="M1656.49,561.375L1642.02,548.798L1656.49,536.222L1656.49,545.227C1663.61,542.358 1668.64,535.379 1668.64,527.234C1668.64,520.118 1664.8,513.893 1659.08,510.52L1660.63,504.015C1669.2,508.226 1675.11,517.046 1675.11,527.234C1675.11,538.992 1667.24,548.927 1656.49,552.06L1656.49,561.375ZM1642.02,502.408L1642.02,493.36L1656.49,505.936L1642.02,518.513L1642.02,509.241C1634.89,512.11 1629.86,519.089 1629.86,527.234C1629.86,532.913 1632.31,538.026 1636.2,541.574C1637.2,542.485 1638.3,543.293 1639.48,543.981L1637.93,550.481C1629.33,546.281 1623.4,537.445 1623.4,527.234C1623.4,515.476 1631.26,505.541 1642.02,502.408Z" style="fill:white;"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                    <p>Image aléatoire</p>
+                </div>
+
+                <div class="pseudo-choice">
+                    <label for="name">Choisis ton pseudo !</label>
+                    <input placeholder="..." id="name" type="text">
+                </div>
+            </div>
+
+            <input type="submit" value="Rejoindre la partie !">
+        </form>
+    </body>
+</html>

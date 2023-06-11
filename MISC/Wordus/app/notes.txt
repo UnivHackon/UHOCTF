@@ -1,0 +1,35 @@
+Principe:
+Jeu de saisie clavier de mot Latin
+sur un choix de mot afficher (5)
+
+Fonctionnalité:
+1v1 (+ plus tard)
+    -> Lien d'invitation (room)/Code
+
+En jeu
+    -> affichage de 5 mots
+    -> affichage des mot sur une hauteur differente
+    -> diparition du mot si ecrit Et affichage d un nouveau
+    -> possibilité de faire un combot si aucune faute n'a été faite
+
+Dictionnaire mots latin
+    Genéré du lorem ipsum via API ? PK ? Y'a bien des dicos sur internet non ? On se fait chier avec le lorem ipsum jpense
+
+Creation music:
+    -> menu
+    -> jeux
+    -> victoire
+    -> defaite
+
+
+
+
+Lorem Ipsum API
+https://baconipsum.com/api/?type=all-meat&paras=1&format=json
+
+Parameters:
+    - type: all-meat for meat only or meat-and-filler for meat mixed with miscellaneous ‘lorem ipsum’ filler.
+    - paras: optional number of paragraphs, defaults to 5.
+    - sentences: number of sentences (this overrides paragraphs)
+    - start-with-lorem: optional pass 1 to start the first paragraph with ‘Bacon ipsum dolor sit amet’.
+    - format: ‘json’ (default), ‘text’, or ‘html’

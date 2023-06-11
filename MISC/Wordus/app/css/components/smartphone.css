@@ -1,0 +1,65 @@
+.smartphone_use {
+    display: none;
+    flex-direction: column;
+    color: var(--color_white);
+    height: 100%;
+    align-items: center;
+}
+
+.smartphone_use h1 {
+    font-size: 6rem;
+    margin: 200px 0;
+}
+
+.smartphone_use h1 span {
+    font-size: 6rem;
+}
+
+.smartphone_use h1 span.color-blue {
+    color: var(--color_player_blue);
+}
+.smartphone_use h1 span.color-yellow {
+    color: var(--color_player_yellow);
+}
+.smartphone_use h1 span.color-brown {
+    color: var(--color_player_brown);
+}
+.smartphone_use h1 span.color-green {
+    color: var(--color_player_green);
+}
+.smartphone_use h1 span.color-purple {
+    color: var(--color_player_dark_pink);
+}
+.smartphone_use h1 span.color-pink {
+    color: var(--color_player_light_pink);
+}
+
+.smartphone_use .nope {
+    font-size: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: var(--color_grey);
+    color: var(--color_black);
+    width: 90%;
+    margin: 4rem 0;
+}
+
+.smartphone_use .why {
+    font-size: 3.5rem;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: var(--color_grey);
+    color: var(--color_black);
+    width: 90%;
+    margin: 4rem 0;
+}
+
+.smartphone_use button {
+    font-size: 4rem;
+    padding: 2rem 4rem;
+    margin: 150px 0 0 0;
+    background-color: var(--color_grey);
+    border-radius: 50px;
+    border: var(--color_player_yellow) 6px solid;
+    cursor: pointer;
+}

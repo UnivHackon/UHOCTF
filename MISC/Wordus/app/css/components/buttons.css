@@ -1,0 +1,39 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn svg {
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+
+.btn p {
+    font-size: 1.2rem;
+    color: var(--color_white);
+}
+
+.btn.color-pink {
+    background-color: var(--color_player_light_pink);
+}
+.btn.color-purple {
+    background-color: var(--color_player_dark_pink);
+}
+.btn.color-yellow {
+    background-color: var(--color_player_yellow);
+}
+.btn.color-blue {
+    background-color: var(--color_player_blue);
+}
+.btn.color-green {
+    background-color: var(--color_player_green);
+}
+.btn.color-brown {
+    background-color: var(--color_player_brown);
+}

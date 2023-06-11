@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordus.xyz</title>
+
+    <link rel="stylesheet" href="../css/master.css">
+    <script src="../js/client/game_bundle.js" defer></script>
+
+    <link rel="icon" href="../src/img/logo/Logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/1a3a0ccf9e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<audio id="sound" src="../music/menu-song.mp3" loop="loop"></audio>
+
+<div class="notifications-container"></div>
+<header>
+    <h1>
+        <a href="/">WORDUS.xyz</a>
+
+        <i class="fas fa-volume-up"></i>
+    </h1>
+
+    <nav class="preferences">
+        <p id="nb-player"><span class="bold">Nombre de joueurs : </span>0</p>
+        <p id="timer"><span class="bold">Temps restant : </span> 00:00</p>
+    </nav>
+</header>
+
+<section class="wrapper">
+
+    <div class="players-list"></div>
+
+    <div class="settings-section">
+        <form class="settings">
+            <p>PREFERENCES DE PARTIE</p>
+
+            <div class="game-duration">
+                <p>Durée de la partie : <span>60 sec.</span></p>
+                <!--<label for="game_duration">Durée de la partie</label>
+                <div class="slider-value">
+                    <span>60 sec.</span>
+                </div>
+                <input id="game_duration" type="range" value="60" min="30" max="180" step="10">-->
+            </div>
+
+            <div class="words-number">
+                <p>Mots affichés en même temps : <span>5 mots</span></p>
+                <!--<label for="words-number">Mots affichés en même temps</label>
+                <div class="slider-value">
+                    <span>5 mots</span>
+                </div>
+                <input id="words-number" type="range" min="1" value="5" max="8" step="1">-->
+            </div>
+
+            <div class="lang">
+                <p>Langue des mots : <span>latin</span></p>
+            </div>
+
+            <div class="invite-game">
+                <label for="link">Invite tes amis à jouer !</label>
+
+                <div class="copy_link">
+                    <p id="show-link">VOIR LE LIEN</p>
+                    <input id="link" class=" hidden" type="text">
+                    <input id="copy-link" type="button" value="COPIER">
+                </div>
+            </div>
+
+            <input id="start_game" type="button" value="Lancer la partie !">
+        </form>
+    </div>
+
+    <div class="game-section hidden">
+        <div class="words"></div>
+
+        <div class="player-input">
+            <div class="input">
+                <p class="player-name color-purple">MOI</p>
+                <input id="player-input" class="color-purple" type="text" placeholder="...">
+            </div>
+
+            <div class="points-container">
+                <p id="input-points" class="points-count">999</p>
+                <p class="points-title">pts</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-section hidden">
+        <div class="scoreboard">
+        </div>
+        <form class="settings">
+            <p>PREFERENCES DE PARTIE</p>
+
+            <div class="game-duration range">
+                <label for="new_game_duration">Durée de la partie</label>
+                <div class="slider-value">
+                    <span>60 sec.</span>
+                </div>
+                <input id="new_game_duration" type="range" value="60" min="30" max="180" step="10">
+            </div>
+
+            <div class="words-number range">
+                <label for="new_words-number">Mots affichés en même temps</label>
+                <div class="slider-value">
+                    <span>5 mots</span>
+                </div>
+                <input id="new_words-number" type="range" min="1" value="5" max="8" step="1">
+            </div>
+
+            <div class="lang">
+                <label for="lang">Langue des mots</label>
+                <select name="lang" id="lang">
+                    <option value="lat">Latin (2600 mots)</option>
+                    <option value="en">Anglais (68000 mots)</option>
+                    <option value="fr">Français (320000 mots)</option>
+                </select>
+            </div>
+
+            <input id="restart_game" type="button" value="Relancer la partie !">
+        </form>
+    </div>
+</section>
+
+
+</body>
+</html>

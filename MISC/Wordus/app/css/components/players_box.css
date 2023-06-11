@@ -1,0 +1,97 @@
+.hidden{
+    display: none !important;
+}
+
+.player_box{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+.player-picture{
+    border-radius: 50px;
+    width: min-content;
+    display: flex;
+    align-items: center;
+    margin-left: -5%;
+}
+
+
+.player-picture img{
+    height: 5rem;
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+
+.points-won{
+    display: flex;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.points-won p{
+    font-size: 1.5rem;
+}
+.player-name{
+    font-size: 1.5rem;
+}
+.player-points-count{
+    font-size: 1.5rem;
+}
+
+.add-point{
+    position: relative;
+    display: flex;
+    left: 3rem;
+}
+
+.player-score{
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+}
+
+.player-infos{
+    margin-left: 1rem;
+
+}
+
+.color-yellow .player-picture{
+    background-color: var(--color_player_yellow);
+}
+.color-blue .player-picture{
+    background-color: var(--color_player_blue);
+}
+.color-green .player-picture{
+    background-color: var(--color_player_green);
+}
+.color-brown .player-picture{
+    background-color: var(--color_player_brown);
+}
+.color-purple .player-picture{
+    background-color: var(--color_player_dark_pink);
+}
+.color-pink .player-picture{
+    background-color: var(--color_player_light_pink);
+}
+
+
+
+.color-yellow .player-picture img{
+    border: solid 3px var(--color_player_yellow);
+}
+.color-blue .player-picture img{
+    border: solid 3px var(--color_player_blue);
+}
+.color-green .player-picture img{
+    border: solid 3px var(--color_player_green);
+}
+.color-brown .player-picture img{
+    border: solid 3px var(--color_player_brown);
+}
+.color-purple .player-picture img{
+    border: solid 3px var(--color_player_dark_pink);
+}
+.color-pink .player-picture img{
+    border: solid 3px var(--color_player_light_pink);
+}

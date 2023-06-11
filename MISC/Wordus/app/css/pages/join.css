@@ -1,0 +1,82 @@
+body.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.join .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border-radius: 25px;
+    background-color: var(--color_white);
+}
+
+body.join .form-wrapper img {
+    height: 12rem;
+    margin-bottom: 2.5rem;
+    border-radius: 50%;
+}
+
+body.join .form-wrapper img.color-pink {
+    border: 5px solid var(--color_player_light_pink);
+}
+body.join .form-wrapper img.color-purple {
+    border: 5px solid var(--color_player_dark_pink);
+}
+body.join .form-wrapper img.color-yellow {
+    border: 5px solid var(--color_player_yellow);
+}
+body.join .form-wrapper img.color-blue {
+    border: 5px solid var(--color_player_blue);
+}
+body.join .form-wrapper img.color-green {
+    border: 5px solid var(--color_player_green);
+}
+body.join .form-wrapper img.color-brown {
+    border: 5px solid var(--color_player_brown);
+}
+
+body.join .form-wrapper .btn {
+    margin-bottom: 2rem;
+}
+
+body.join .form-wrapper .pseudo-choice {
+    display: flex;
+    flex-direction: column;
+}
+
+body.join .form-wrapper .pseudo-choice label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color_word_font_fill)
+}
+
+body.join .form-wrapper .pseudo-choice input {
+    padding: 1rem 2rem;
+    border: 2px solid var(--color_word_default);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color_word_font_fill);
+    outline: none;
+}
+
+body.join input[type="submit"] {
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color_player_blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+}
+
+body.join input[type="submit"]:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "wordus",
+  "version": "1.0.0",
+  "description": "latin typing word game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperDelphi/guemjamme.git"
+  },
+  "author": "SuperDelphi, Hokanosekai, Ryutsuki, Titouan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperDelphi/guemjamme/issues"
+  },
+  "homepage": "https://github.com/SuperDelphi/guemjamme#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "lorem-ipsum": "^2.0.3",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "uuid4": "^2.0.2"
+  }
+}

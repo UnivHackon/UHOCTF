@@ -1,0 +1,439 @@
+.wrapper {
+    display: flex;
+    width: calc(100vw - 10vh);
+    height: 90vh;
+    margin: 5vh;
+    padding-top: 2rem;
+    border-radius: 25px;
+    background-color: var(--color_grey);
+}
+
+.wrapper > div {
+    height: 100%;
+}
+
+.wrapper .players-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+.wrapper .settings-section,
+.wrapper .game-section {
+    width: 80%;
+}
+
+.wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper form > p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color_word_font_fill);
+    text-align: center;
+}
+.wrapper form > input[type="button"] {
+    align-self: center;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color_player_blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color_white);
+    cursor: pointer;
+}
+.wrapper form label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color_word_font_fill);
+}
+
+/* SETTINGS SECTION */
+.wrapper .settings-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .settings-section form {
+    width: 40%;
+}
+.wrapper .settings-section form .game-duration,
+.wrapper .settings-section form .words-number,
+.wrapper .settings-section form .invite-game {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .settings-section form .game-duration,
+.wrapper .settings-section form .words-number,
+.wrapper .settings-section form .lang {
+    margin-bottom: 2rem;
+}
+
+.wrapper .settings-section form .game-duration p span,
+.wrapper .settings-section form .words-number p span,
+.wrapper .settings-section form .lang p span {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.wrapper .settings-section form .game-duration p span {
+    color: var(--color_player_blue);
+}
+.wrapper .settings-section form .words-number p span {
+    color: var(--color_player_green);
+}
+.wrapper .settings-section form .lang p span {
+    color: var(--color_player_dark_pink);
+}
+
+.wrapper .settings-section form .invite-game {
+    margin-bottom: 2.5rem;
+}
+.wrapper .settings-section form .invite-game .copy_link {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: var(--color_white);
+}
+.wrapper .settings-section form .invite-game .copy_link p {
+    margin: .5rem;
+    padding: 1rem 2rem;
+    background-color: var(--color_grey);
+    font-weight: 500;
+    color: var(--color_black);
+    cursor: pointer;
+}
+
+.wrapper .settings-section form .invite-game .copy_link input[type="text"] {
+    width: 60%;
+    margin: .5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .2rem;
+    background-color: var(--color_grey);
+    font-weight: 500;
+    color: var(--color_word_font_fill);
+    outline: none;
+}
+.wrapper .settings-section form .invite-game .copy_link input[type="button"] {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--color_player_blue);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color_white);
+    cursor: pointer;
+}
+
+
+
+/* GAME SECTION */
+/* WORDS */
+.wrapper .game-section .words {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-direction: column;
+    height: 75%;
+    padding: 3rem 0 2rem 0;
+}
+
+/* PLAYER INPUT */
+.wrapper .game-section .points-container {
+    height: 20%;
+}
+.wrapper .game-section .player-input {
+    display: flex;
+    align-items: center;
+    margin: 5% 0 0 15%;
+}
+
+.wrapper .game-section .player-input .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.wrapper .game-section .player-input .input .player-name {
+    padding: 1rem 3rem .6rem 3rem;
+    border-radius: 10px 10px 0 0;
+    background-color: var(--color_player_yellow);
+    color: var(--color_white);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.wrapper .game-section .player-input .input .player-name.color-green {
+    background-color: var(--color_player_green);
+}
+.wrapper .game-section .player-input .input .player-name.color-pink {
+    background-color: var(--color_player_light_pink);
+}
+.wrapper .game-section .player-input .input .player-name.color-purple {
+    background-color: var(--color_player_dark_pink);
+}
+.wrapper .game-section .player-input .input .player-name.color-brown {
+    background-color: var(--color_player_brown);
+}
+.wrapper .game-section .player-input .input .player-name.color-blue {
+    background-color: var(--color_player_blue);
+}
+.wrapper .game-section .player-input .input .player-name.color-yellow {
+    background-color: var(--color_player_yellow);
+}
+
+.wrapper .game-section .player-input .input input {
+    width: 100%;
+    padding: 1.3rem 2rem;
+    border: 3px solid var(--color_player_yellow);
+    border-radius: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    outline: none;
+}
+.wrapper .game-section .player-input .input input.color-purple {
+    border: 3px solid var(--color_player_dark_pink);
+}
+.wrapper .game-section .player-input .input input.color-pink {
+    border: 3px solid var(--color_player_light_pink);
+}
+.wrapper .game-section .player-input .input input.color-yellow {
+    border: 3px solid var(--color_player_yellow);
+}
+.wrapper .game-section .player-input .input input.color-green {
+    border: 3px solid var(--color_player_green);
+}
+.wrapper .game-section .player-input .input input.color-blue {
+    border: 3px solid var(--color_player_blue);
+}
+.wrapper .game-section .player-input .input input.color-brown {
+    border: 3px solid var(--color_player_brown);
+}
+
+.wrapper .game-section .player-input .points-container {
+    display: flex;
+    margin-top: 3.5rem;
+}
+
+.wrapper .game-section .player-input .points-container p {
+    color: var(--color_word_font_fill);
+}
+
+.wrapper .game-section .player-input .points-container .points-count {
+    margin-right: .3rem;
+    font-size: 2rem;
+}
+.wrapper .game-section .player-input .points-container .points-title {
+    align-self: flex-end;
+    margin-bottom: .4rem;
+    font-size: 1.2rem;
+}
+
+/* RESULT SECTION */
+.wrapper .result-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrapper .result-section form {
+    width: 20%;
+}
+.wrapper .result-section form .game-duration,
+.wrapper .result-section form .words-number {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.wrapper .result-section form .lang {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .result-section form .lang label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color_word_font_fill)
+}
+.wrapper .result-section form .lang select {
+    padding: 12px 8px;
+    border: none;
+    background:#ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.wrapper .result-section .scoreboard {
+    display: flex;
+    width: 70%;
+    height: 90%;
+    background-color: var(--color_white);
+    border-radius: 25px;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.wrapper .result-section .scoreboard .player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.wrapper .result-section .scoreboard .player-container span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px;
+}
+.wrapper .result-section .scoreboard .player-container .charte {
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.wrapper .result-section .scoreboard .player-container .charte img {
+    top: 0;
+    position: absolute;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.wrapper .result-section .scoreboard .player-container .charte .bar {
+    height: 100%;
+    margin-top: 2rem;
+    width: calc(5rem - 4px);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.wrapper .result-section .scoreboard .player-container .charte .points-final {
+    color: var(--color_word_default);
+    position: absolute;
+    transform: rotateZ(-90deg);
+    text-align: left;
+    bottom: 5%;
+    width: max-content;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.wrapper .result-section .scoreboard .player-container.first .charte img {
+    height: 10rem;
+}
+.wrapper .result-section .scoreboard .player-container.second .charte img {
+    height: 8rem;
+}
+.wrapper .result-section .scoreboard .player-container.third .charte img {
+    height: 6rem;
+}
+
+.wrapper .result-section .scoreboard .player-container.color-yellow .charte img {
+    border: solid 3px var(--color_player_yellow);
+}
+.wrapper .result-section .scoreboard .player-container.color-purple .charte img {
+    border: solid 3px var(--color_player_dark_pink);
+}
+.wrapper .result-section .scoreboard .player-container.color-pink .charte img {
+    border: solid 3px var(--color_player_light_pink);
+}
+.wrapper .result-section .scoreboard .player-container.color-brown .charte img {
+    border: solid 3px var(--color_player_brown);
+}
+.wrapper .result-section .scoreboard .player-container.color-green .charte img {
+    border: solid 3px var(--color_player_green);
+}
+.wrapper .result-section .scoreboard .player-container.color-blue .charte img {
+    border: solid 3px var(--color_player_blue);
+}
+
+.wrapper .result-section .scoreboard .player-container.first .charte .bar {
+    width: calc(10rem - 4px);
+    margin-top: 4rem;
+}
+.wrapper .result-section .scoreboard .player-container.second .charte .bar {
+    width: calc(8rem - 4px);
+    margin-top: 3rem;;
+}
+.wrapper .result-section .scoreboard .player-container.third .charte .bar {
+    width: calc(6rem - 4px);
+    margin-top: 3rem;
+}
+
+.wrapper .result-section .scoreboard .player-container.color-yellow .charte .bar {
+    background-color:  var(--color_player_yellow);
+}
+.wrapper .result-section .scoreboard .player-container.color-purple .charte .bar {
+    background-color:  var(--color_player_dark_pink);
+}
+.wrapper .result-section .scoreboard .player-container.color-pink .charte .bar {
+    background-color:  var(--color_player_light_pink);
+}
+.wrapper .result-section .scoreboard .player-container.color-brown .charte .bar {
+    background-color:  var(--color_player_brown);
+}
+.wrapper .result-section .scoreboard .player-container.color-green .charte .bar {
+    background-color:  var(--color_player_green);
+}
+.wrapper .result-section .scoreboard .player-container.color-blue .charte .bar {
+    background-color:  var(--color_player_blue);
+}
+
+.wrapper .result-section .scoreboard .player-container.first .charte .points-final {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+}
+.wrapper .result-section .scoreboard .player-container.second .charte .points-final {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.wrapper .result-section .scoreboard .player-container.third .charte .points-final {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .result-section .scoreboard .player-container .player_pseudo {
+    font-size: 1.2rem;
+}
+.wrapper .result-section .scoreboard .player-container .podium {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color_word_font_default);
+    min-height: 70px;
+}
+
+.wrapper .result-section .scoreboard .player-container.first .podium {
+    font-size: 5rem;
+    color: var(--color_podium_first);
+}
+.wrapper .result-section .scoreboard .player-container.second .podium {
+    font-size: 4rem;
+    color: var(--color_podium_second);
+}
+.wrapper .result-section .scoreboard .player-container.third .podium {
+    font-size: 3rem;
+    color: var(--color_podium_third);
+}
+
+.wrapper .hidden {
+    display: none !important;
+}
