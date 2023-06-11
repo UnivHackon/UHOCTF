@@ -42,6 +42,29 @@ $1$uWu$dVdb41eRcD.np7zCwgUgU1
 
 
 
+Type 7 mdp non sécu
 
+Hoka : UHOCTF_escalope  
+Zyksa : UHOCTF_dragodinde  
+??? : UHOCTF_p@ass  
+
+
+On voit qu'on commence avec `UHOCTF_`
+
+Ducoup je créer une wordlist custom avec rockyou:
+
+```bash
+sed -i -e '/s/^/UHOCTF_/' rockyou
+```
+
+Et on peux bruteforce le mdp de senkei :
+
+`john  --wordlist=./uho_wl.txt ./pass.txt`
+
+![MDP](https://i.imgur.com/LhQqfFF.png)
+
+```text
+$1$uWu$dVdb41eRcD.np7zCwgUgU1 => UHOCTF_naruto
+```
 
 **Flag** : `UHOCTF{UHOCTF_naruto}`

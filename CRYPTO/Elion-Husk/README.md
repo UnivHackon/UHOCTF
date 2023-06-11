@@ -10,7 +10,7 @@
 
 ## Description :
 
-Un de t'es cammarade à intercepté un message entre deux étudiants de la mention Mathématiques. Aide le à le décrypter.
+Un de tes camarades a intercepté un message entre deux étudiants de la mention Mathématiques. Aide-le à le décrypter.
 
 ![encrypted](https://i.imgur.com/2OPlfZ4.png)
 
