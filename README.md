@@ -23,7 +23,7 @@ Les challenges sont écrient en français.
 ### CRYPTO
 
 - [Avocat Enigmatique](CRYPTO/Avocat-enigmatique/README.md) ✅
-- [Elion Husk](CRYPTO/Elion-Husk/README.md) ☑️
+- [Elion Husk](CRYPTO/Elion-Husk/README.md) ✅
 - [Cryptoxore](CRYPTO/Cryptoxore/README.md) ✅
 - [UHOCTF](CRYPTO/UHOCTF/README.md) ✅
 
