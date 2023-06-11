@@ -8,7 +8,7 @@
 
 ## Description :
 ```text
-ޔުނިވަރސިޓީ Tala'aga 새 Ikibuga театр Gelecek ਭਾਸ਼ਾ lernejo zuva Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево porque কাৰণ моҳ wata
+ޔުނިވަރސިޓީ Tala 새 Ikibuga театр Gelecek ਭਾਸ਼ਾ lernejo zuva Boek любовь habeen স্টেশন universe a ni nafasi قرن Chikhalidwe تأثير iyanrin vaqt ആനന്ദം ուսումնական ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ foglio дерево cubo কাৰণ моҳ wata
 ```
 
 S'il y a des espaces il faut les remplacer par des `_`.
@@ -24,7 +24,7 @@ On peut voir que les mots sont dans différentes langues. Il faut donc les tradu
 | Mot | Langue | Traduction |
 | --- | --- | --- |
 |Universite | Divéhi | ޔުނިވަރސިޓީ |
-|Histoire | Samoan | Tala'aga |
+|Histoire | Samoan | Tala |
 |Oiseau | Korean | 새 (sae) |
 |Chateau | Kinyarwanda | Ikibuga |
 |Theatre | Kazak | театр (teatr) |
@@ -48,7 +48,7 @@ On peut voir que les mots sont dans différentes langues. Il faut donc les tradu
 |sourire | Meitei | ꯃꯣꯃꯣꯟ ꯅꯣꯛꯄ |
 |Feuille | Italian | foglio |
 |arbre | Russian | дерево (derevo) |
-|car | Spanish | porque |
+|cube | Spanish | cubo |
 |ile | Assamais | কাৰণ |
 |lune | Tajik | моҳ (moh) |
 |eau | Krio | wata |
