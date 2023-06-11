@@ -293,6 +293,8 @@ FLAG_TEST
 
 Maintenant, nous pouvons lancer le script en remote:
 
+Il faut penser à ajouter un autre `recv` pour recevoir la seconde ligne affichée lors de la connexion.
+
 ```bash
 hoka@hoka ~/c/U/U/P/Chatbotique (main)> python3 solve.py
 [+] Opening connection to 161.35.21.37 on port 40013: Done
