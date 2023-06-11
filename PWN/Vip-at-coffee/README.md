@@ -1,4 +1,4 @@
-# Vip at Coffee (MEDIUM)
+# Vip at Coffee (HARD)
 
 ## Auteur(s) :
 `Hokanosekai`
