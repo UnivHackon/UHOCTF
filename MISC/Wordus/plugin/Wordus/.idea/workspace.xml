@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5732ba6-acb6-4f76-8d6d-e02d31e09032" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Mouaaa-Boureeee-???/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Mouaaa-Boureeee-???/message.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../PWN/Calculateur-Express/src/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../PWN/Calculateur-Express/src/start.sh" afterDir="false" />
-    </list>
+    <list default="true" id="b5732ba6-acb6-4f76-8d6d-e02d31e09032" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +85,7 @@
       <workItem from="1685137890321" duration="3308000" />
       <workItem from="1685431895538" duration="43000" />
       <workItem from="1686330755016" duration="1663000" />
+      <workItem from="1686553249410" duration="279000" />
     </task>
     <servers />
   </component>

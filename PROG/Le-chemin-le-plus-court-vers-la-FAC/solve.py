@@ -7,6 +7,7 @@ p = pwn.process(["python3", "chall.py"])
 
 nodes = []
 edges = []
+tri = 0
 
 def parse(p):
     line = p.recvline().decode().strip()
@@ -68,11 +69,14 @@ def dijkstra(graph, source, destination):
 
     return distances[destination]
 
+
+
 def main():
+    global tri
     print("Starting...")
+    edges.clear()
     graph = parse(p)
     graph_json = json.dumps(graph, indent=2)
-    #print(graph_json)
 
     # Send graph to dijkstra
     res = dijkstra({
@@ -81,19 +85,19 @@ def main():
     }, graph["source"], graph["destination"])
 
     # Receive until "Quel est le chemin le plus court ?"
-    p.recvuntil(b"Quel est le chemin le plus court ?")
+    print(p.recvuntil(b"Quel est le chemin le plus court ?"))
 
-    # Send shortest path
-    p.sendline(str(res))
+    print(res)
+    print(res.to_bytes(4, "big"))
 
-    # Sauvegarde le résultat
-    result = p.recvline().decode().strip()
-    print(result)
+    # Send shortest path as int
+    p.sendline(str(res).encode())
 
-    p.recvuntil(b'(o/n)')
+    print(p.recvuntil(b'(o/n)'))
 
     # Send "o"
-    p.sendline("o")
+    p.sendline(b"o")
+    tri = tri + 1
     main()
 
 

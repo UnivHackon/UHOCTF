@@ -1,5 +1,8 @@
+import datetime
+import json
 from random import *
 import heapq
+import struct
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -13,8 +16,8 @@ def save_graph_as_image(graph, filename):
     - nodes are labeled
     - edges have a weight
     """
-    pos = nx.spring_layout(graph)
-    nx.draw(graph, pos, with_labels=True)
+    pos = nx.spring_layout(graph, k=1)
+    nx.draw_networkx(graph, pos, with_labels=True, node_size=10, font_size=5)
     edge_labels = nx.get_edge_attributes(graph, "weight")
     nx.draw_networkx_edge_labels(graph, pos, edge_labels=edge_labels)
     plt.savefig(filename)
@@ -46,7 +49,7 @@ def generate_random_graph_json(min_weight, max_weight, n):
     # Crée un graphe aléatoire de n sommets et de probabilité p
     graph = random(n, n/100, max_weight, min_weight)
 
-    save_graph_as_image(graph, "random.png")
+    #save_graph_as_image(graph, "random.png")
 
     graph_dict = {
         "nodes": list(graph.nodes),
@@ -138,12 +141,6 @@ def transform_json_to_shell_output(graph_json):
 
     return shell_output
 
-def generate_graph(nb_nodes):
-    """
-    Génère un graphe aléatoire
-    """
-    return generate_random_graph_json(1, 10, nb_nodes)
-
 score = 0;
 
 def main():
@@ -163,17 +160,24 @@ def main():
     print(transform_json_to_shell_output(random_challenge))
 
     # Demande à l'utilisateur de saisir le chemin le plus court
-    user_answer = float(input("Quel est le chemin le plus court ? "))
+    user_answer = int(input("Quel est le chemin le plus court ? "))
+
+    with open("log.txt", "a") as f:
+        # log the time, the score and the user answer
+        f.write(f"{datetime.now()}\t{score}\t{user_answer}\n")
 
     # Vérifie si la réponse est correcte
     if user_answer == resp:
-        print("Bonne réponse !")
         score += 1
+        print(f"Bonne réponse !")
     else:
         exit()
 
     if score == 10:
-        print("FLAG: 0x41414141 Voulez-vous continuer ? (o/n) ")
+        # Send the flag
+        with open("flag.txt", "r") as f:
+            print(f"Flag : {f.read()}")
+        print("Voulez-vous continuer ? (o/n) ")
         exit()
         return
 
