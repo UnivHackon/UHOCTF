@@ -13,7 +13,7 @@ COPY ctf.xinetd /etc/xinetd.d/ctf
 COPY ./src /ctf/
 
 RUN chown -R root:ctf /ctf && \
-  chmod -R 750 /ctf
+  chmod -R 770 /ctf
 
 RUN pip install -r /ctf/requirements.txt
 
