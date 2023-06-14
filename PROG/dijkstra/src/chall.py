@@ -160,10 +160,6 @@ def main():
     # Demande à l'utilisateur de saisir le chemin le plus court
     user_answer = int(input("Quel est le chemin le plus court ? "))
 
-    with open("log.txt", "a") as f:
-        # log the time, the score and the user answer
-        f.write(f"{datetime.now()}\t{score}\t{user_answer}\n")
-
     # Vérifie si la réponse est correcte
     if user_answer == resp:
         score += 1
