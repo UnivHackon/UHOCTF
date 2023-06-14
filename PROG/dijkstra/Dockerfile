@@ -15,6 +15,8 @@ COPY ./src /ctf/
 RUN chown -R root:ctf /ctf && \
   chmod -R 750 /ctf
 
+RUN pip install -r /ctf/requirements.txt
+
 ENTRYPOINT []
 CMD ["/usr/sbin/xinetd", "-dontfork"]
 
