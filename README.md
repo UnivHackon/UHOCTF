@@ -59,8 +59,7 @@ Les challenges sont écrient en français.
 
 - [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md) 🟡
 - [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) 🟡
-- [Medium](PROG/Medium/README.md) ❌
-- [Le chemin le plus court vers la FAC](PROG/Le-chemin-le-plus-court-vers-la-FAC/README.md) ⏳
+- [Plus court ou plus rapide ?](PROG/dijkstra/README.md) 🟡
 
 ### REVERSE
 

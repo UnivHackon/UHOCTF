@@ -12,7 +12,7 @@
 
 Tous les jours, je me rends à la fac en bus. Mais aujourd'hui, le bus est en panne. Je dois donc trouver un autre moyen de transport. Je me rends compte que je peux prendre le métro. Mais je ne sais pas quel est le chemin le plus court pour aller à la fac. Pouvez-vous m'aider ?
 
-`nc {ip} {port}`
+`nc 161.35.21.37 40002`
 
 Exemple de graphe créé par le serveur :
 
@@ -50,9 +50,30 @@ Exemple de réponse attendue :
 }
 ```
 
-**Flag** `UHOCTF{Fake_flag}`
+**Flag** : `UHOCTF{Fake_flag}`
 
 ---
 
 ## Solution :
 
+
+**Flag** : `UHOCTF{Th4nk's_K4r311}`
+
+## Hosting
+
+```bash
+sudo docker build -t dijkstra .
+sudo docker network create -d bridge dijkstra
+```
+
+The command to start the challenge is:
+
+```bash
+sudo docker run -p 40002:40002 --detach --name dijkstra --network dijkstra dijkstra:latest
+```
+
+The command to stop the challenge (since CTRL+C won't work) is:
+
+```bash
+sudo docker stop dijkstra
+```

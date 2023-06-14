@@ -1,9 +1,14 @@
 import heapq
 import json
-import pwn
+from pwn import *
 
 # Process challenge
-p = pwn.process(["python3", "chall.py"])
+def conn():
+    if args.LOCAL:
+        r = process(["python3", "chall.py"])
+    else:
+        r = remote("161.35.21.37", 40002)
+    return r
 
 nodes = []
 edges = []
@@ -71,12 +76,11 @@ def dijkstra(graph, source, destination):
 
 
 
-def main():
+def exp():
     global tri
     print("Starting...")
     edges.clear()
     graph = parse(p)
-    graph_json = json.dumps(graph, indent=2)
 
     # Send graph to dijkstra
     res = dijkstra({
@@ -98,7 +102,12 @@ def main():
     # Send "o"
     p.sendline(b"o")
     tri = tri + 1
-    main()
+    exp()
+
+def main():
+    global p
+    p = conn()
+    exp()
 
 
 
