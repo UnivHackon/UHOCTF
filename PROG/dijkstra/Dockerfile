@@ -17,8 +17,8 @@ RUN chown -R root:ctf /ctf && \
 
 RUN pip install -r /ctf/requirements.txt
 
-# chown the matplotlib cache directory so that the ctf user can write to it
-RUN chown -R ctf:ctf /root/.config/matplotlib
+# Set the env MPLCONFIGDIR to a writable directory
+ENV MPLCONFIGDIR=/tmp
 
 ENTRYPOINT []
 CMD ["/usr/sbin/xinetd", "-dontfork"]
