@@ -39,21 +39,15 @@ Les challenges sont écrient en français.
 
 - [YEET 1](JAIL/Yeet-1/README.md) ✅
 - [YEET 2](JAIL/Yeet-2/README.md) ✅
-- [Medium](JAIL/Medium/README.md) ❌
-- [Hard](JAIL/Hard/README.md) ❌
 
 ### STEGANO
 
 - [Le Logo](STEGANO/Le-Logo/README.md) ✅
 - [Bazar organisé](STEGANO/Bazar-organise/README.md) ✅
-- [Reyko Hard](STEGANO/Reyko-Hard/README.md) ❌
 
 ### PENTEST
 
 - [Pentester Academia 1](PENTEST/Academia-1/README.md) 🟡
-- [Easy](PENTEST/Easy/README.md) ❌
-- [Medium](PENTEST/Medium/README.md) ❌
-- [Hard](PENTEST/Hard/README.md) ❌
 
 ### PROG
 
@@ -66,14 +60,12 @@ Les challenges sont écrient en français.
 - [Poulet en folie](REVERSE/Poulet-en-folie/README.md) ✅
 - [VBScape](REVERSE/VBScape/README.md) ✅
 - [RetroProjets](REVERSE/RetroProjets/README.md) ✅
-- [Hard](PWN/Hard/README.md) ❌
 
 ### FORENSIC 
 
 - [Petit vol en tp](FORENSIC/Petit-vol-en-tp/README.md) ✅
 - [Ciscolaire](FORENSIC/Ciscolaire/README.md) ✅
 - [Clef USB](FORENSIC/Clef-USB/README.md) ⏳
-- [Hard](FORENSIC/Hard/README.md) ❌
 
 ### WEB
 
