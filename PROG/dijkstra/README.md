@@ -1,4 +1,4 @@
-# Plus court ou plus rapide ? (HARD)
+# Plus court ou plus rapide ? (MEDIUM/HARD)
 
 ## Auteur(s) :
 
