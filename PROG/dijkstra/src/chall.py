@@ -1,8 +1,6 @@
 import datetime
-import json
 from random import *
 import heapq
-import struct
 import networkx as nx
 import matplotlib.pyplot as plt
 
