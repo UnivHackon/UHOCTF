@@ -50,7 +50,7 @@ Les challenges sont écrient en français.
 
 ### PENTEST
 
-- [Intro](PENTEST/Intro/README.md) ❌
+- [Pentester Academia 1](PENTEST/Academia-1/README.md) 🟡
 - [Easy](PENTEST/Easy/README.md) ❌
 - [Medium](PENTEST/Medium/README.md) ❌
 - [Hard](PENTEST/Hard/README.md) ❌
