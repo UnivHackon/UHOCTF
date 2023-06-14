@@ -18,7 +18,7 @@ RUN chown -R root:ctf /ctf && \
 RUN pip install -r /ctf/requirements.txt
 
 # Set the env MPLCONFIGDIR to a writable directory
-ENV MPLCONFIGDIR=/tmp
+ENV MPLCONFIGDIR=/ctf
 
 ENTRYPOINT []
 CMD ["/usr/sbin/xinetd", "-dontfork"]
