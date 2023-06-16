@@ -52,6 +52,8 @@ Vous avez 1 minute pour résoudre un maximum de calculs !
 18 ? 9 = 2
 > /
 ```
+---
+
 ## Solution :
 
 Le joueur doit donc résoudre 100 calculs en moins d'une minute. Pour cela il doit trouver l'opérateur qui a été appliqué sur les deux nombres pour obtenir le résultat.
