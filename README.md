@@ -47,12 +47,12 @@ Les challenges sont écrient en français.
 
 ### PENTEST
 
-- [Pentester Academia 1](PENTEST/Academia-1/README.md) 🟡
+- [Pentester Academia 1](PENTEST/Academia-1/README.md) ✅
 
 ### PROG
 
-- [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md) 🟡
-- [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) 🟡
+- [Les claviers c'est pas facile quand ça veut pas](PROG/azertyu/README.md) ✅
+- [Evaluation surprise !](PROG/evaluation-surpise-!/README.md) ✅
 - [Plus court ou plus rapide ?](PROG/dijkstra/README.md) 🟡
 
 ### REVERSE
@@ -69,8 +69,8 @@ Les challenges sont écrient en français.
 ### WEB
 
 - [Tux](WEB/Tux/README.md) ✅
-- [Top Promo](WEB/top-promo/README.md) 🟡
-- [T'as la référrrrrrence ?](WEB/referrrrrence/README.md) 🟡
+- [Top Promo](WEB/top-promo/README.md) ✅
+- [T'as la référrrrrrence ?](WEB/referrrrrence/README.md) ✅
 - [Projet web final](WEB/Projet-web-final/README.md) ✅
 
 ### OSINT
