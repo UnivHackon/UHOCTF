@@ -33,7 +33,6 @@ Les challenges sont écrient en français.
 - [La liste](PWN/La-liste/README.md) ✅
 - [Calculateur express!](PWN/Calculateur-Express/README.md) ✅
 - [Chatbotique](PWN/Chatbotique/README.md) ✅
-- [Vip at Coffee](PWN/Vip-at-coffee/README.md) ⏳
 
 ### JAIL
 

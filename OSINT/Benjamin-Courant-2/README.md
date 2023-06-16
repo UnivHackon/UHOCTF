@@ -18,5 +18,6 @@ Bien joué, maintenant qu'on a son discord on en a appris un peu plus sur lui, e
 
 ## Solution :
 
+La solution a été transmise par oral lors de la fin du CTF.
 
 **Flag** : `UHOCTF{G3tL4b_iS_B3tTeR}`

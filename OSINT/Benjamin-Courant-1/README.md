@@ -18,6 +18,6 @@ Nous avons remarqué un individu suspect sur le discord, il a un rôle très sp�
 
 ## Solution :
 
-
+La solution a été transmise par oral lors de la fin du CTF.
 
 **Flag** : `UHOCTF{1110964142979940353}`

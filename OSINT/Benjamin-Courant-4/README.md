@@ -20,5 +20,7 @@ On a aussi remarqué qu'il aimait bien le chase tag, essayer de trouver le nom d
 
 ## Solution :
 
+La solution a été transmise par oral lors de la fin du CTF.
+
 
 **Flag** : `UHOCTF{perigny_martorell_narbonne_lEo-urbAn}`

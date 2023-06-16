@@ -324,3 +324,4 @@ The command to stop the challenge (since CTRL+C won't work) is:
 ```bash
 sudo docker stop chatbotique
 ```
+

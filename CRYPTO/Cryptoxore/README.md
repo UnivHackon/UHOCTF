@@ -60,4 +60,4 @@ for i in range(7):
 
 On obtient donc le message originel : `UHOCTF{Un1v3r51t13_X0R_Ch4113ng3}`
 
-**Flag** `UHOCTF{Un1v3r51t13_X0R_Ch4113ng3}` len 33
+**Flag** `UHOCTF{Un1v3r51t13_X0R_Ch4113ng3}`

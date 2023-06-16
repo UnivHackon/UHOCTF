@@ -69,9 +69,6 @@ curl -X POST -d 'note=20&signature=8007.467868228553' https://top-promo.univhack
 
 ```
 
-
-
-
 **Flag** - `UHOCTF{ANNEE_VALIDEE}`
 
 

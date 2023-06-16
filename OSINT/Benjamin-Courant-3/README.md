@@ -19,6 +19,7 @@ Retrouver aussi comment s'appelle le parfum qu'il a pris chez son glacier préf�
 
 ## Solution :
 
+La solution a été transmise par oral lors de la fin du CTF.
 
 
 **Flag** : `UHOCTF{trugeon_red-mayan_pizzeria}`

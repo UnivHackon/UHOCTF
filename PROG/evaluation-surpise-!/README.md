@@ -22,6 +22,3 @@ Ma solution est disponible dans le fichier [solve.py](solve.py).
 
 **Flag** - `UHOCTF{Ev3LuAtI0nS*rPise}`
 
-
-
-

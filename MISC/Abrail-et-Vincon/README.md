@@ -1,4 +1,4 @@
-# Abrail, Braillard et Vincon
+# Abrail, Braillard et Vincon (INTRO)
 
 ## Auteur(s) :
 `Senkei`

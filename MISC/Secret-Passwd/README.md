@@ -49,9 +49,6 @@ A partir de cela je vais concatener les mots entre eux pour avoir une wordlist p
 
 bash -c 'for i in (cat words.txt); for j in (cat wordlist.txt); echo $i$j; end; end' > wordlist2.txt
 
-
 ```
-
-
-
 **Flag** : `UHOCTF{UHOCTF_univlr17}`
+

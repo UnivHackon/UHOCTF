@@ -66,4 +66,3 @@ Et le lieu de rendez-vous : PENTAKILL
 
 **Flag** : `UOHCTF{12/06/2023-22:00_PENTAKILL}`
 
-
